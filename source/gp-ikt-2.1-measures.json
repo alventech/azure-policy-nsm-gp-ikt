@@ -1,0 +1,1068 @@
+{
+ "source": "NSM, Grunnprinsipper for IKT-sikkerhet 2.1 (spreadsheet of measures). IDs, principles, titles, priority and whether NSM's alert of 27.10.2026 points to the measure. NSM's full text is on nsm.no.",
+ "version": "GP-IKT 2.1 (regneark sist endret 2026-04)",
+ "measures": [
+  {
+   "id": "1.1.1",
+   "category": "Identifisere og kartlegge",
+   "principle_id": "1.1",
+   "principle": "Kartlegg styringsstrukturer, leveranser og understøttende systemer",
+   "title": "Identifiser virksomhetens strategi og prioriterte mål",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "1.1.2",
+   "category": "Identifisere og kartlegge",
+   "principle_id": "1.1",
+   "principle": "Kartlegg styringsstrukturer, leveranser og understøttende systemer",
+   "title": "Identifiser virksomhetens strukturer og prosesser for sikkerhetsstyring.",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "1.1.3",
+   "category": "Identifisere og kartlegge",
+   "principle_id": "1.1",
+   "principle": "Kartlegg styringsstrukturer, leveranser og understøttende systemer",
+   "title": "Identifiser virksomhetens prosesser for risikostyring knyttet til IKT",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "1.1.4",
+   "category": "Identifisere og kartlegge",
+   "principle_id": "1.1",
+   "principle": "Kartlegg styringsstrukturer, leveranser og understøttende systemer",
+   "title": "Identifiser virksomhetens toleransegrenser for risiko knyttet til IKT",
+   "priority": 2,
+   "in_alert": false
+  },
+  {
+   "id": "1.1.5",
+   "category": "Identifisere og kartlegge",
+   "principle_id": "1.1",
+   "principle": "Kartlegg styringsstrukturer, leveranser og understøttende systemer",
+   "title": "Kartlegg virksomhetens leveranser, informasjonssystemer og understøttende IKT-funksjoner",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "1.1.6",
+   "category": "Identifisere og kartlegge",
+   "principle_id": "1.1",
+   "principle": "Kartlegg styringsstrukturer, leveranser og understøttende systemer",
+   "title": "Kartlegg informasjonsbehandling og dataflyt i virksomheten",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "1.2.1",
+   "category": "Identifisere og kartlegge",
+   "principle_id": "1.2",
+   "principle": "Kartlegg enheter og programvare",
+   "title": "Etabler en prosess for å kartlegge enheter og programvare som er i bruk i virksomheten",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "1.2.2",
+   "category": "Identifisere og kartlegge",
+   "principle_id": "1.2",
+   "principle": "Kartlegg enheter og programvare",
+   "title": "Fastsett retningslinjer for godkjente enheter og programvare i virksomheten",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "1.2.3",
+   "category": "Identifisere og kartlegge",
+   "principle_id": "1.2",
+   "principle": "Kartlegg enheter og programvare",
+   "title": "Kartlegg enheter i bruk i virksomheten",
+   "priority": 1,
+   "in_alert": true
+  },
+  {
+   "id": "1.2.4",
+   "category": "Identifisere og kartlegge",
+   "principle_id": "1.2",
+   "principle": "Kartlegg enheter og programvare",
+   "title": "Kartlegg programvare i bruk i virksomheten",
+   "priority": 1,
+   "in_alert": true
+  },
+  {
+   "id": "1.3.1",
+   "category": "Identifisere og kartlegge",
+   "principle_id": "1.3",
+   "principle": "Kartlegg brukere og behov for tilgang",
+   "title": "Kartlegg brukere i informasjonssystemene, inkludert",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "1.3.2",
+   "category": "Identifisere og kartlegge",
+   "principle_id": "1.3",
+   "principle": "Kartlegg brukere og behov for tilgang",
+   "title": "Kartlegg og definer de ulike brukerkategoriene",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "1.3.3",
+   "category": "Identifisere og kartlegge",
+   "principle_id": "1.3",
+   "principle": "Kartlegg brukere og behov for tilgang",
+   "title": "Kartlegg ansvar og roller spesielt knyttet til IKT-sikkerhet",
+   "priority": 2,
+   "in_alert": true
+  },
+  {
+   "id": "2.1.1",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.1",
+   "principle": "Ivareta sikkerhet i anskaffelses- og utviklingsprosesser",
+   "title": "Integrer sikkerhet i virksomhetens prosess for anskaffelser",
+   "priority": 2,
+   "in_alert": false
+  },
+  {
+   "id": "2.1.2",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.1",
+   "principle": "Ivareta sikkerhet i anskaffelses- og utviklingsprosesser",
+   "title": "Kjøp moderne og oppdatert maskin- og programvare",
+   "priority": 1,
+   "in_alert": true
+  },
+  {
+   "id": "2.1.3",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.1",
+   "principle": "Ivareta sikkerhet i anskaffelses- og utviklingsprosesser",
+   "title": "Foretrekk IKT-produkter som er sertifiserte og evaluert av en tiltrodd tredjepart",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.1.4",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.1",
+   "principle": "Ivareta sikkerhet i anskaffelses- og utviklingsprosesser",
+   "title": "Reduser risiko for målrettet manipulasjon av IKT-produkter i leverandørkjeden",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.1.5",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.1",
+   "principle": "Ivareta sikkerhet i anskaffelses- og utviklingsprosesser",
+   "title": "Benytt en metode for sikker utvikling av programvare",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.1.6",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.1",
+   "principle": "Ivareta sikkerhet i anskaffelses- og utviklingsprosesser",
+   "title": "Benytt separate miljøer for utvikling, test og produksjon",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.1.7",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.1",
+   "principle": "Ivareta sikkerhet i anskaffelses- og utviklingsprosesser",
+   "title": "Gjennomfør tilstrekkelig med testing gjennom hele utviklingsprosessen",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.1.8",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.1",
+   "principle": "Ivareta sikkerhet i anskaffelses- og utviklingsprosesser",
+   "title": "Vedlikehold programvarekode som utvikles/benyttes i virksomheten",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.1.9",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.1",
+   "principle": "Ivareta sikkerhet i anskaffelses- og utviklingsprosesser",
+   "title": "Ta ansvar for virksomhetens sikkerhet også ved tjenesteutsetting",
+   "priority": 1,
+   "in_alert": true
+  },
+  {
+   "id": "2.1.10",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.1",
+   "principle": "Ivareta sikkerhet i anskaffelses- og utviklingsprosesser",
+   "title": "Undersøk sikkerheten hos tjenesteleverandør ved tjenesteutsetting",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.2.1",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.2",
+   "principle": "Etabler en sikker IKT-arkitektur",
+   "title": "Etabler og vedlikehold en helhetlig sikkerhetsarkitektur",
+   "priority": 2,
+   "in_alert": true
+  },
+  {
+   "id": "2.2.2",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.2",
+   "principle": "Etabler en sikker IKT-arkitektur",
+   "title": "Bygg IKT-systemet med IKT-produkter som fungerer godt sammen sikkerhetsmessig",
+   "priority": 2,
+   "in_alert": false
+  },
+  {
+   "id": "2.2.3",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.2",
+   "principle": "Etabler en sikker IKT-arkitektur",
+   "title": "Del opp virksomhetens nettverk etter virksomhetens risikoprofil",
+   "priority": 1,
+   "in_alert": true
+  },
+  {
+   "id": "2.2.4",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.2",
+   "principle": "Etabler en sikker IKT-arkitektur",
+   "title": "Skill fysisk de mest kritiske del-nettverkene",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.2.5",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.2",
+   "principle": "Etabler en sikker IKT-arkitektur",
+   "title": "Del opp domenearkitekturen iht. virksomhetens behov",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.2.6",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.2",
+   "principle": "Etabler en sikker IKT-arkitektur",
+   "title": "Reguler tilgang til tjenester basert på kjennskap til både brukere og enhet",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.2.7",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.2",
+   "principle": "Etabler en sikker IKT-arkitektur",
+   "title": "Etabler en robust og motstandsdyktig IKT-arkitektur",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.3.1",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.3",
+   "principle": "Ivareta en sikker konfigurasjon",
+   "title": "Etabler et sentralt styrt regime for sikkerhetsoppdatering",
+   "priority": 1,
+   "in_alert": true
+  },
+  {
+   "id": "2.3.2",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.3",
+   "principle": "Ivareta en sikker konfigurasjon",
+   "title": "Konfigurer klienter slik at kun kjent programvare kjører på dem",
+   "priority": 1,
+   "in_alert": true
+  },
+  {
+   "id": "2.3.3",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.3",
+   "principle": "Ivareta en sikker konfigurasjon",
+   "title": "Deaktiver unødvendig funksjonalitet",
+   "priority": 1,
+   "in_alert": true
+  },
+  {
+   "id": "2.3.4",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.3",
+   "principle": "Ivareta en sikker konfigurasjon",
+   "title": "Etabler og vedlikehold standard sikkerhetskonfigurasjoner",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.3.5",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.3",
+   "principle": "Ivareta en sikker konfigurasjon",
+   "title": "Verifiser at aktivert sikkerhetskonfigurasjon er i henhold til virksomhetens godkjente sikkerhetskonfigurasjon",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.3.6",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.3",
+   "principle": "Ivareta en sikker konfigurasjon",
+   "title": "Utfør all konfigurasjon, installasjon, og drift for øvrig på en trygg måte",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.3.7",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.3",
+   "principle": "Ivareta en sikker konfigurasjon",
+   "title": "Endre alle standardpassord på IKT-produktene før produksjonssetting",
+   "priority": 1,
+   "in_alert": true
+  },
+  {
+   "id": "2.3.8",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.3",
+   "principle": "Ivareta en sikker konfigurasjon",
+   "title": "Ikke deaktiver kodebeskyttelsesfunksjoner",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.3.9",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.3",
+   "principle": "Ivareta en sikker konfigurasjon",
+   "title": "Etabler sikker tid i virksomheten",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.3.10",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.3",
+   "principle": "Ivareta en sikker konfigurasjon",
+   "title": "Reduser risiko med IoT-enheter",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.4.1",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.4",
+   "principle": "Beskytt virksomhetens nettverk",
+   "title": "Etabler tilgangskontroll på flest mulige nettverksporter",
+   "priority": 2,
+   "in_alert": true
+  },
+  {
+   "id": "2.4.2",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.4",
+   "principle": "Beskytt virksomhetens nettverk",
+   "title": "Krypter alle trådløse og kablede forbindelser",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.4.3",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.4",
+   "principle": "Beskytt virksomhetens nettverk",
+   "title": "Kartlegg fysisk tilgjengelighet for svitsjer og kabler",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.4.4",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.4",
+   "principle": "Beskytt virksomhetens nettverk",
+   "title": "Aktiver brannmur på alle klienter og servere",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.5.1",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.5",
+   "principle": "Kontroller dataflyt",
+   "title": "Styr dataflyt mellom nettverks-soner",
+   "priority": 2,
+   "in_alert": true
+  },
+  {
+   "id": "2.5.2",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.5",
+   "principle": "Kontroller dataflyt",
+   "title": "Begrens tilgangen til interne tjenester fra eksterne lokasjoner",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.5.3",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.5",
+   "principle": "Kontroller dataflyt",
+   "title": "Sperr all direkte-trafikk mellom klienter",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.5.4",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.5",
+   "principle": "Kontroller dataflyt",
+   "title": "Isoler utstyr som er sårbart og har lav tillitt",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.5.5",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.5",
+   "principle": "Kontroller dataflyt",
+   "title": "Styr dataflyten til spesielt eksponerte tjenester",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.5.6",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.5",
+   "principle": "Kontroller dataflyt",
+   "title": "Beskytt spesielt kritiske tjenester med egen dataflyt",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.5.7",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.5",
+   "principle": "Kontroller dataflyt",
+   "title": "Ha kontroll på trafikk mellom virksomheten og samarbeidspartnere/ tjenesteleverandører",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.5.8",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.5",
+   "principle": "Kontroller dataflyt",
+   "title": "Styr all trafikk (ikke bare interne tjenester) til og fra forvaltede mobile klienter via virksomhetens nett",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.6.1",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.6",
+   "principle": "Ha kontroll på identiteter og tilganger",
+   "title": "Etabler retningslinjer for tilgangskontroll",
+   "priority": 2,
+   "in_alert": false
+  },
+  {
+   "id": "2.6.2",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.6",
+   "principle": "Ha kontroll på identiteter og tilganger",
+   "title": "Etabler en formell prosess for administrasjon av kontoer, tilganger og rettigheter",
+   "priority": 2,
+   "in_alert": false
+  },
+  {
+   "id": "2.6.3",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.6",
+   "principle": "Ha kontroll på identiteter og tilganger",
+   "title": "Benytt et sentralisert og automatiserbart verktøy for å styre kontoer, tilganger og rettigheter",
+   "priority": 2,
+   "in_alert": false
+  },
+  {
+   "id": "2.6.4",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.6",
+   "principle": "Ha kontroll på identiteter og tilganger",
+   "title": "Minimer rettigheter til sluttbrukere og spesialbrukere",
+   "priority": 1,
+   "in_alert": true
+  },
+  {
+   "id": "2.6.5",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.6",
+   "principle": "Ha kontroll på identiteter og tilganger",
+   "title": "Minimer rettigheter på drifts-kontoer",
+   "priority": 1,
+   "in_alert": true
+  },
+  {
+   "id": "2.6.6",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.6",
+   "principle": "Ha kontroll på identiteter og tilganger",
+   "title": "Styr tilganger til enheter",
+   "priority": 2,
+   "in_alert": false
+  },
+  {
+   "id": "2.6.7",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.6",
+   "principle": "Ha kontroll på identiteter og tilganger",
+   "title": "Bruk multi-faktor autentisering",
+   "priority": 2,
+   "in_alert": true
+  },
+  {
+   "id": "2.7.1",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.7",
+   "principle": "Beskytt data i ro og i transitt",
+   "title": "Etabler en strategi for håndtering av kryptografi i virksomheten",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.7.2",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.7",
+   "principle": "Beskytt data i ro og i transitt",
+   "title": "Aktiver kryptering i de tjenestene som tilbyr slik funksjonalitet",
+   "priority": 2,
+   "in_alert": false
+  },
+  {
+   "id": "2.7.3",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.7",
+   "principle": "Beskytt data i ro og i transitt",
+   "title": "Krypter lagringsmedier som holder konfidensiell data og som lett kan mistes eller kompromitteres",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.7.4",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.7",
+   "principle": "Beskytt data i ro og i transitt",
+   "title": "Benytt kryptering når konfidensiell informasjon overføres eller når tilliten til informasjonskanalen er lav",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.7.5",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.7",
+   "principle": "Beskytt data i ro og i transitt",
+   "title": "Definer krav til sikringsnivå for ulike typer informasjon",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.8.1",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.8",
+   "principle": "Beskytt e-post og nettleser",
+   "title": "Verifiser at innkommende e-post er fra en legitim avsender-adresse",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.8.2",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.8",
+   "principle": "Beskytt e-post og nettleser",
+   "title": "Aktiver STARTTLS på virksomhetens e-postserver",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.8.3",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.8",
+   "principle": "Beskytt e-post og nettleser",
+   "title": "Bruk kun støttede e-postklienter, nettlesere og programtillegg",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.8.4",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.8",
+   "principle": "Beskytt e-post og nettleser",
+   "title": "Tillat kun virksomhetsgodkjente programtillegg",
+   "priority": 2,
+   "in_alert": false
+  },
+  {
+   "id": "2.9.1",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.9",
+   "principle": "Etabler evne til gjenoppretting av data",
+   "title": "Legg en plan for regelmessig sikkerhetskopiering av alle virksomhetsdata",
+   "priority": 1,
+   "in_alert": true
+  },
+  {
+   "id": "2.9.2",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.9",
+   "principle": "Etabler evne til gjenoppretting av data",
+   "title": "Inkluder sikkerhetskopier av programvare",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.9.3",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.9",
+   "principle": "Etabler evne til gjenoppretting av data",
+   "title": "Test sikkerhetskopier regelmessig",
+   "priority": 2,
+   "in_alert": true
+  },
+  {
+   "id": "2.9.4",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.9",
+   "principle": "Etabler evne til gjenoppretting av data",
+   "title": "Beskytt sikkerhetskopier mot tilsiktet og utilsiktet sletting, manipulering og avlesning",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.10.1",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.10",
+   "principle": "Integrer sikkerhet i prosess for endringshåndtering",
+   "title": "Integrer sikkerhet i virksomhetens prosess for endringshåndtering",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.10.2",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.10",
+   "principle": "Integrer sikkerhet i prosess for endringshåndtering",
+   "title": "Involver nødvendig IKT-sikkerhetspersonell i forbindelse med endringer",
+   "priority": 2,
+   "in_alert": false
+  },
+  {
+   "id": "2.10.3",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.10",
+   "principle": "Integrer sikkerhet i prosess for endringshåndtering",
+   "title": "Gjennomfør nødvendig endring, konfigurering og testing av påvirkede sikkerhetsfunksjoner",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "2.10.4",
+   "category": "Beskytte og opprettholde",
+   "principle_id": "2.10",
+   "principle": "Integrer sikkerhet i prosess for endringshåndtering",
+   "title": "Integrer sikkerhet i virksomhetens prosess for hasteendringer",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "3.1.1",
+   "category": "Oppdage",
+   "principle_id": "3.1",
+   "principle": "Oppdag og fjern kjente sårbarheter og trusler",
+   "title": "Gjennomfør jevnlig sårbarhetskartlegging",
+   "priority": 2,
+   "in_alert": false
+  },
+  {
+   "id": "3.1.2",
+   "category": "Oppdage",
+   "principle_id": "3.1",
+   "principle": "Oppdag og fjern kjente sårbarheter og trusler",
+   "title": "Abonner på tjenester relatert til sårbarhetsetterretning",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "3.1.3",
+   "category": "Oppdage",
+   "principle_id": "3.1",
+   "principle": "Oppdag og fjern kjente sårbarheter og trusler",
+   "title": "Benytt automatisert og sentralisert verktøy for å håndtere kjente trusler (som skadevare)",
+   "priority": 2,
+   "in_alert": false
+  },
+  {
+   "id": "3.2.1",
+   "category": "Oppdage",
+   "principle_id": "3.2",
+   "principle": "Etabler sikkerhetsovervåkning",
+   "title": "Fastsett virksomhetens strategi og retningslinjer for sikkerhetsovervåkning",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "3.2.2",
+   "category": "Oppdage",
+   "principle_id": "3.2",
+   "principle": "Etabler sikkerhetsovervåkning",
+   "title": "Følg lover, reguleringer og virksomhetens retningslinjer for sikkerhetsovervåkning",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "3.2.3",
+   "category": "Oppdage",
+   "principle_id": "3.2",
+   "principle": "Etabler sikkerhetsovervåkning",
+   "title": "Avgjør hvilke deler av IKT-systemet som skal overvåkes",
+   "priority": 1,
+   "in_alert": true
+  },
+  {
+   "id": "3.2.4",
+   "category": "Oppdage",
+   "principle_id": "3.2",
+   "principle": "Etabler sikkerhetsovervåkning",
+   "title": "Beslutt hvilke data som er sikkerhetsrelevant og bør samles inn",
+   "priority": 1,
+   "in_alert": true
+  },
+  {
+   "id": "3.2.5",
+   "category": "Oppdage",
+   "principle_id": "3.2",
+   "principle": "Etabler sikkerhetsovervåkning",
+   "title": "Verifiser at innsamling fungerer etter hensikt",
+   "priority": 2,
+   "in_alert": false
+  },
+  {
+   "id": "3.2.6",
+   "category": "Oppdage",
+   "principle_id": "3.2",
+   "principle": "Etabler sikkerhetsovervåkning",
+   "title": "Påse at innsamlet data ikke kan manipuleres",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "3.2.7",
+   "category": "Oppdage",
+   "principle_id": "3.2",
+   "principle": "Etabler sikkerhetsovervåkning",
+   "title": "Gjennomgå og konfigurer innhenting av sikkerhetsrelevant data og den sentrale loggdatabasen jevnlig",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "3.3.1",
+   "category": "Oppdage",
+   "principle_id": "3.3",
+   "principle": "Analyser data fra sikkerhetsovervåkning",
+   "title": "Lage en plan for analyse av data fra sikkerhetsovervåkning",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "3.3.2",
+   "category": "Oppdage",
+   "principle_id": "3.3",
+   "principle": "Analyser data fra sikkerhetsovervåkning",
+   "title": "Etabler og vedlikehold kompetanse om normaltilstanden i virksomhetens informasjonssystemer",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "3.3.3",
+   "category": "Oppdage",
+   "principle_id": "3.3",
+   "principle": "Analyser data fra sikkerhetsovervåkning",
+   "title": "Ta i bruk verktøy som muliggjør manuelle og automatiske søk, samt alarmering basert på kriterier",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "3.3.4",
+   "category": "Oppdage",
+   "principle_id": "3.3",
+   "principle": "Analyser data fra sikkerhetsovervåkning",
+   "title": "Innhent og bearbeid trusselinformasjon fra relevante kilder",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "3.3.5",
+   "category": "Oppdage",
+   "principle_id": "3.3",
+   "principle": "Analyser data fra sikkerhetsovervåkning",
+   "title": "Vurder fortløpende om innhentet data er tilstrekkelig relevant og detaljert",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "3.3.6",
+   "category": "Oppdage",
+   "principle_id": "3.3",
+   "principle": "Analyser data fra sikkerhetsovervåkning",
+   "title": "Etabler rutine for eskalering av alarmer",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "3.3.7",
+   "category": "Oppdage",
+   "principle_id": "3.3",
+   "principle": "Analyser data fra sikkerhetsovervåkning",
+   "title": "Benytt analyseverktøy, teknologi og algoritmer",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "3.4.1",
+   "category": "Oppdage",
+   "principle_id": "3.4",
+   "principle": "Gjennomfør inntrengningstester",
+   "title": "Planlegg inntrengingstester med tydelig mål og omfang",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "3.4.2",
+   "category": "Oppdage",
+   "principle_id": "3.4",
+   "principle": "Gjennomfør inntrengningstester",
+   "title": "Involver relevante interesseparter i forkant",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "3.4.3",
+   "category": "Oppdage",
+   "principle_id": "3.4",
+   "principle": "Gjennomfør inntrengningstester",
+   "title": "Benytt verktøy for sårbarhetskartlegging og angrepsverktøy",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "3.4.4",
+   "category": "Oppdage",
+   "principle_id": "3.4",
+   "principle": "Gjennomfør inntrengningstester",
+   "title": "Gjennomfør jevnlige inntrengingstester (minst årlige) for å identifisere sårbarheter",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "3.4.5",
+   "category": "Oppdage",
+   "principle_id": "3.4",
+   "principle": "Gjennomfør inntrengningstester",
+   "title": "Test rutiner for deteksjon og beredskap",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "3.4.6",
+   "category": "Oppdage",
+   "principle_id": "3.4",
+   "principle": "Gjennomfør inntrengningstester",
+   "title": "Kommuniser resultater fra inntrengingstester til relevante interesseparter",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "4.1.1",
+   "category": "Håndtere og gjenopprette",
+   "principle_id": "4.1",
+   "principle": "Forbered virksomheten på håndtering av hendelser",
+   "title": "Etabler et planverk for hendelseshåndtering",
+   "priority": 1,
+   "in_alert": true
+  },
+  {
+   "id": "4.1.2",
+   "category": "Håndtere og gjenopprette",
+   "principle_id": "4.1",
+   "principle": "Forbered virksomheten på håndtering av hendelser",
+   "title": "Gjennomfør en analyse av virksomhetskritiske effekter",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "4.1.3",
+   "category": "Håndtere og gjenopprette",
+   "principle_id": "4.1",
+   "principle": "Forbered virksomheten på håndtering av hendelser",
+   "title": "Utarbeid rolle- og ansvarsbeskrivelse for personell som skal involveres i hendelseshåndtering",
+   "priority": 2,
+   "in_alert": false
+  },
+  {
+   "id": "4.1.4",
+   "category": "Håndtere og gjenopprette",
+   "principle_id": "4.1",
+   "principle": "Forbered virksomheten på håndtering av hendelser",
+   "title": "Utarbeid avtaler med relevante tredjeparter",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "4.1.5",
+   "category": "Håndtere og gjenopprette",
+   "principle_id": "4.1",
+   "principle": "Forbered virksomheten på håndtering av hendelser",
+   "title": "Fastsett hvilke kommunikasjonskanaler som skal benyttes i forbindelse med hendelser",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "4.1.6",
+   "category": "Håndtere og gjenopprette",
+   "principle_id": "4.1",
+   "principle": "Forbered virksomheten på håndtering av hendelser",
+   "title": "Test og øv på planer jevnlig slik at disse er godt innøvd",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "4.2.1",
+   "category": "Håndtere og gjenopprette",
+   "principle_id": "4.2",
+   "principle": "Vurder og klassifiser hendelser",
+   "title": "Gjennomgå loggdata og samle relevante data om hendelsen for å oppnå et godt beslutningsgrunnlag",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "4.2.2",
+   "category": "Håndtere og gjenopprette",
+   "principle_id": "4.2",
+   "principle": "Vurder og klassifiser hendelser",
+   "title": "Avgjør alvorlighetsgrad for hendelsen",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "4.2.3",
+   "category": "Håndtere og gjenopprette",
+   "principle_id": "4.2",
+   "principle": "Vurder og klassifiser hendelser",
+   "title": "Informer relevante interesseparter",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "4.3.1",
+   "category": "Håndtere og gjenopprette",
+   "principle_id": "4.3",
+   "principle": "Kontroller og håndter hendelser",
+   "title": "Kartlegg omfang og påvirkning på forretningsprosesser",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "4.3.2",
+   "category": "Håndtere og gjenopprette",
+   "principle_id": "4.3",
+   "principle": "Kontroller og håndter hendelser",
+   "title": "Undersøk om hendelsen er under kontroll og gjennomfør nødvendige reaktive tiltak",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "4.3.3",
+   "category": "Håndtere og gjenopprette",
+   "principle_id": "4.3",
+   "principle": "Kontroller og håndter hendelser",
+   "title": "Loggfør alle aktiviteter, resultater og relevante avgjørelser",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "4.3.4",
+   "category": "Håndtere og gjenopprette",
+   "principle_id": "4.3",
+   "principle": "Kontroller og håndter hendelser",
+   "title": "Iverksett gjenopprettingsplan i løpet av, eller i etterkant av hendelsen",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "4.3.5",
+   "category": "Håndtere og gjenopprette",
+   "principle_id": "4.3",
+   "principle": "Kontroller og håndter hendelser",
+   "title": "Koordiner og kommuniser med interne og eksterne interessenter underveis i hendelseshåndteringen",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "4.3.6",
+   "category": "Håndtere og gjenopprette",
+   "principle_id": "4.3",
+   "principle": "Kontroller og håndter hendelser",
+   "title": "Gjennomfør nødvendige aktiviteter i etterkant av hendelsen",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "4.4.1",
+   "category": "Håndtere og gjenopprette",
+   "principle_id": "4.4",
+   "principle": "Evaluer og lær av hendelser",
+   "title": "Identifiser erfaringer og læringspunkter («lessons learned») fra hendelser",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "4.4.2",
+   "category": "Håndtere og gjenopprette",
+   "principle_id": "4.4",
+   "principle": "Evaluer og lær av hendelser",
+   "title": "Kartlegg og gjennomgå identifiserte, kompromitterte sikkerhetstiltak",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "4.4.3",
+   "category": "Håndtere og gjenopprette",
+   "principle_id": "4.4",
+   "principle": "Evaluer og lær av hendelser",
+   "title": "Vurdere effektiviteten av prosesser, prosedyrer, rapporteringsformater og organisatoriske strukturer med tanke på å respondere på hendelser",
+   "priority": 3,
+   "in_alert": false
+  },
+  {
+   "id": "4.4.4",
+   "category": "Håndtere og gjenopprette",
+   "principle_id": "4.4",
+   "principle": "Evaluer og lær av hendelser",
+   "title": "Kommuniser og del erfaringsresultatene med (relevante) interessenter",
+   "priority": 3,
+   "in_alert": false
+  }
+ ]
+}

@@ -1,0 +1,1524 @@
+{
+ "_note": "Display name, version and parameters without a default for the 216 built-in policy definitions in Microsoft cloud security benchmark 57.60.0, read from github.com/Azure/azure-policy (built-in-policies/policyDefinitions, master) on 2026-11-11. Used for names in coverage.md and to check that every required parameter is passed.",
+ "policies": {
+  "013e242c-8828-4970-87b3-ab247555486d": {
+   "ref": "azureBackupShouldBeEnabledForVirtualMachinesMonitoringEffect",
+   "displayName": "Azure Backup should be enabled for Virtual Machines",
+   "version": "3.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "037eea7a-bd0a-46c5-9a66-03aea78705d3": {
+   "ref": "cognitiveServicesAccountsShouldRestrictNetworkAccessMonitoringEffect",
+   "displayName": "Azure AI Services resources should restrict network access",
+   "version": "3.3.0",
+   "deprecated": false,
+   "required": []
+  },
+  "055aa869-bc98-4af8-bafc-23f1ab6ffe2c": {
+   "ref": "webApplicationFirewallShouldBeEnabledForAzureFrontDoorServiceServiceMonitoringEffect",
+   "displayName": "Azure Web Application Firewall should be enabled for Azure Front Door entry-points",
+   "version": "1.0.2",
+   "deprecated": false,
+   "required": []
+  },
+  "0564d078-92f5-4f97-8398-b9f58a51f70b": {
+   "ref": "privateEndpointShouldBeEnabledForPostgresqlServersMonitoringEffect",
+   "displayName": "Private endpoint should be enabled for PostgreSQL servers",
+   "version": "1.0.2",
+   "deprecated": false,
+   "required": []
+  },
+  "057ef27e-665e-4328-8ea3-04b3122bd9fb": {
+   "ref": "diagnosticsLogsInDataLakeStoreMonitoring",
+   "displayName": "Resource logs in Azure Data Lake Store should be enabled",
+   "version": "5.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "0820b7b9-23aa-4725-a1ce-ae4558f718e5": {
+   "ref": "functionAppRestrictCORSAccessMonitoring",
+   "displayName": "Function apps should not have CORS configured to allow every resource to access your apps",
+   "version": "2.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "09024ccc-0c5f-475e-9457-b7c0d9ed487b": {
+   "ref": "identityDesignateMoreThanOneOwnerMonitoring",
+   "displayName": "There should be more than one owner assigned to your subscription",
+   "version": "3.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "090c7b07-b4ed-4561-ad20-e9075f3ccaff": {
+   "ref": "azureContainerRegistryVulnerabilityAssessment",
+   "displayName": "Azure registry container images should have vulnerabilities resolved (powered by Microsoft Defender Vulnerability Management)",
+   "version": "1.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "098fc59e-46c7-4d99-9b16-64990e543d75": {
+   "ref": "AllowedHostPathVolumesInKubernetesCluster",
+   "displayName": "Kubernetes cluster pod hostPath volumes should only use allowed host paths",
+   "version": "6.4.0",
+   "deprecated": false,
+   "required": []
+  },
+  "0a075868-4c26-42ef-914c-5bc007359560": {
+   "ref": "certificatesValidityPeriodMonitoring",
+   "displayName": "Certificates should have the specified maximum validity period",
+   "version": "2.2.1",
+   "deprecated": false,
+   "required": []
+  },
+  "0a1302fb-a631-4106-9753-f3d494733990": {
+   "ref": "privateEndpointShouldBeEnabledForMariadbServersMonitoringEffect",
+   "displayName": "Private endpoint should be enabled for MariaDB servers",
+   "version": "1.0.2",
+   "deprecated": false,
+   "required": []
+  },
+  "0a15ec92-a229-4763-bb14-0ea34a568f8d": {
+   "ref": "azurePolicyAddonStatus",
+   "displayName": "Azure Policy Add-on for Kubernetes service (AKS) should be installed and enabled on your clusters",
+   "version": "1.0.2",
+   "deprecated": false,
+   "required": []
+  },
+  "0a370ff3-6cab-4e85-8995-295fd854c5b8": {
+   "ref": "ensureServerTDEIsEncryptedWithYourOwnKeyMonitoring",
+   "displayName": "SQL servers should use customer-managed keys to encrypt data at rest",
+   "version": "2.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "0a9fbe0d-c5c4-4da8-87d8-f4fd77338835": {
+   "ref": "AzureDefenderForOpenSourceRelationalDatabasesShouldBeEnabledMonitoringEffect",
+   "displayName": "Azure Defender for open-source relational databases should be enabled",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "0b15565f-aa9e-48ba-8619-45960f2c314d": {
+   "ref": "emailNotificationToSubscriptionOwnerForHighSeverityAlertsShouldBeEnabledMonitoringEffect",
+   "displayName": "Email notification to subscription owner for high severity alerts should be enabled",
+   "version": "2.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "0b60c0b2-2dc2-4e1c-b5c9-abbed971de53": {
+   "ref": "keyVaultsShouldHavePurgeProtectionEnabledMonitoringEffect",
+   "displayName": "Key vaults should have deletion protection enabled",
+   "version": "2.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "0c28c3fb-c244-42d5-a9bf-f35f2999577b": {
+   "ref": "sqlManagedInstanceDisablingADOnlyAuthMonitoring",
+   "displayName": "Azure SQL Managed Instance should have Microsoft Entra-only authentication enabled",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "0cfea604-3201-4e14-88fc-fae4c427a6c5": {
+   "ref": "identityRemoveDeprecatedAccountWithOwnerPermissionsMonitoringNew",
+   "displayName": "Blocked accounts with owner permissions on Azure resources should be removed",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "0da106f2-4ca3-48e8-bc85-c638fe6aea8f": {
+   "ref": "managedIdentityShouldBeUsedInYourFunctionAppMonitoringEffect",
+   "displayName": "Function apps should use managed identity",
+   "version": "3.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "0e246bcf-5f6f-4f87-bc6f-775d4712c7ea": {
+   "ref": "kubernetesServiceAuthorizedIPRangesEnabledMonitoring",
+   "displayName": "Authorized IP ranges should be defined on Kubernetes Services",
+   "version": "2.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "0e60b895-3786-45da-8377-9c6b4b6ac5f9": {
+   "ref": "functionAppDisableRemoteDebuggingMonitoring",
+   "displayName": "Function apps should have remote debugging turned off",
+   "version": "2.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "0e6763cc-5078-4e64-889d-ff4d9a839047": {
+   "ref": "keyVaultsAdvancedDataSecurityMonitoringEffect",
+   "displayName": "Azure Defender for Key Vault should be enabled",
+   "version": "1.0.3",
+   "deprecated": false,
+   "required": []
+  },
+  "0e7849de-b939-4c50-ab48-fc6b0f5eeba2": {
+   "ref": "azureDatabricksWorkspacesShouldDisablePublicNetworkAccess",
+   "displayName": "Azure Databricks Workspaces should disable public network access",
+   "version": "1.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "0ec47710-77ff-4a3d-9181-6aa50af424d0": {
+   "ref": "georedundantBackupShouldBeEnabledForAzureDatabaseForMariadbMonitoringEffect",
+   "displayName": "Geo-redundant backup should be enabled for Azure Database for MariaDB",
+   "version": "1.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "12d4fa5e-1f9f-4c21-97a9-b99b3c6611b5": {
+   "ref": "keyvaultServiceRbacEnabledMonitoring",
+   "displayName": "Azure Key Vault should use RBAC permission model",
+   "version": "1.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "138ff14d-b687-4faa-a81c-898c91a87fa2": {
+   "ref": "resourceLogsInAzureDatabricksWorkspacesShouldBeEnabled",
+   "displayName": "Resource logs in Azure Databricks Workspaces should be enabled",
+   "version": "1.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "13a6c84f-49a5-410a-b5df-5b880c3fe009": {
+   "ref": "LinuxVirtualMachineShouldUseSignedAndTrustedBootComponentEffect",
+   "displayName": "[Preview]: Linux virtual machines should use only signed and trusted boot components",
+   "version": "1.0.0-preview",
+   "deprecated": false,
+   "required": []
+  },
+  "146412e9-005c-472b-9e48-c87b72ac229e": {
+   "ref": "mySqlServerADAdminisMonitoring",
+   "displayName": "A Microsoft Entra administrator should be provisioned for MySQL servers",
+   "version": "1.1.1",
+   "deprecated": false,
+   "required": []
+  },
+  "152b15f7-8e1f-4c1f-ab71-8c010ba5dbc0": {
+   "ref": "keysExpirationSet",
+   "displayName": "Key Vault keys should have an expiration date",
+   "version": "1.0.2",
+   "deprecated": false,
+   "required": []
+  },
+  "17f4b1cc-c55c-4d94-b1f9-2978f6ac2957": {
+   "ref": "kubernetesRunningImagesVulnerabilityMDVMAssessment",
+   "displayName": "Azure running container images should have vulnerabilities resolved (powered by Microsoft Defender Vulnerability Management)",
+   "version": "1.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "17k78e20-9358-41c9-923c-fb736d382a12": {
+   "ref": "sqlDbEncryptionMonitoring",
+   "displayName": "Transparent Data Encryption on SQL databases should be enabled",
+   "version": "2.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "18adea5e-f416-4d0f-8aa8-d24321e3e274": {
+   "ref": "bringYourOwnKeyDataProtectionShouldBeEnabledForPostgreSqlServersMonitoringEffect",
+   "displayName": "PostgreSQL servers should use customer-managed keys to encrypt data at rest",
+   "version": "1.0.4",
+   "deprecated": false,
+   "required": []
+  },
+  "1a5b4dca-0b6f-4cf5-907c-56316bc1bf3d": {
+   "ref": "kubernetesClustersShouldBeAccessibleOnlyOverHTTPSMonitoringEffect",
+   "displayName": "Kubernetes clusters should be accessible only over HTTPS",
+   "version": "9.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "1b4d1c4e-934c-4703-944c-27c82c06bebb": {
+   "ref": "diagnosticLogsInAzureAIServicesResourcesShouldBeEnabledMonitoring",
+   "displayName": "Diagnostic logs in Azure AI services resources should be enabled",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "1b7aa243-30e4-4c9e-bca8-d0d3022b634a": {
+   "ref": "vulnerabilityAssessmentOnManagedInstanceMonitoring",
+   "displayName": "Vulnerability assessment should be enabled on SQL Managed Instance",
+   "version": "1.2.0",
+   "deprecated": false,
+   "required": []
+  },
+  "1b8ca024-1d5c-4dec-8995-b1a932b41780": {
+   "ref": "publicNetworkAccessOnAzureSQLDatabaseShouldBeDisabledMonitoringEffect",
+   "displayName": "Public network access on Azure SQL Database should be disabled",
+   "version": "1.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "1c30f9cd-b84c-49cc-aa2c-9288447cc3b3": {
+   "ref": "VtpmShouldBeEnabledOnSupportedVirtualMachinesMonitoringEffect",
+   "displayName": "vTPM should be enabled on supported virtual machines",
+   "version": "2.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "1c6e92c9-99f0-4e55-9cf2-0c234dc48f99": {
+   "ref": "NoPrivilegeEscalationInKubernetesCluster",
+   "displayName": "Kubernetes clusters should not allow container privilege escalation",
+   "version": "8.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "1c988dd6-ade4-430f-a608-2a3e5b0a6d38": {
+   "ref": "containersAdvancedThreatProtectionMonitoringEffect",
+   "displayName": "Microsoft Defender for Containers should be enabled",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "1cb4d9c2-f88f-4069-bee0-dba239a57b09": {
+   "ref": "GuestAttestationExtensionShouldBeInstalledOnSupportedWindowsVirtualMachinesMonitoringEffect",
+   "displayName": "Guest Attestation extension should be installed on supported Windows virtual machines",
+   "version": "4.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "1d84d5fb-01f6-4d12-ba4f-4a26081d403d": {
+   "ref": "classicComputeVMsMonitoring",
+   "displayName": "Virtual machines should be migrated to new Azure Resource Manager resources",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "1dc2fc00-2245-4143-99f4-874c937f13ef": {
+   "ref": "aPIManagementServicePlatformVersionShouldBeStv2",
+   "displayName": "Azure API Management platform version should be stv2",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "1e66c121-a66a-4b1f-9b83-0fd99bf0fc2d": {
+   "ref": "keyVaultsShouldHaveSoftDeleteEnabledMonitoringEffect",
+   "displayName": "Key vaults should have soft delete enabled",
+   "version": "3.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "1f314764-cb73-4fc9-b863-8eca98ac36e9": {
+   "ref": "aadAuthenticationInSqlServerMonitoring",
+   "displayName": "An Azure Active Directory administrator should be provisioned for SQL servers",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "1f905d99-2ab7-462c-a6b0-f709acca6c8f": {
+   "ref": "azureCosmosDbAccountsShouldUseCustomerManagedKeysToEncryptDataAtRestMonitoringEffect",
+   "displayName": "Azure Cosmos DB accounts should use customer-managed keys to encrypt data at rest",
+   "version": "1.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "1f90fc71-a595-4066-8974-d4d0802e8ef0": {
+   "ref": "MicrosoftDefenderCSPMShouldBeEnabledMonitoringEffect",
+   "displayName": "Microsoft Defender CSPM should be enabled",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "2154edb9-244f-4741-9970-660785bccdaa": {
+   "ref": "vmImageBuilderTemplatesShouldUsePrivateLinkMonitoringEffect",
+   "displayName": "VM Image Builder templates should use private link",
+   "version": "1.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "2158ddbe-fefa-408e-b43f-d4faef8ff3b8": {
+   "ref": "synapseWorkspaceADOnlyEnabledMonitoring",
+   "displayName": "Synapse Workspaces should use only Microsoft Entra identities for authentication during workspace creation",
+   "version": "1.2.0",
+   "deprecated": false,
+   "required": []
+  },
+  "21a6bc25-125e-4d13-b82d-2e19b7208ab7": {
+   "ref": "vPNGatewaysShouldUseOnlyAzureActiveDirectoryAzureADAuthenticationForPointtositeUsers",
+   "displayName": "VPN gateways should use only Azure Active Directory (Azure AD) authentication for point-to-site users",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "22730e10-96f6-4aac-ad84-9383d35b5917": {
+   "ref": "restrictAccessToManagementPortsMonitoring",
+   "displayName": "Management ports should be closed on your virtual machines",
+   "version": "3.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "22bee202-a82f-4305-9a2a-6d7f44d4dedb": {
+   "ref": "diagnosticsLogsInRedisCacheMonitoring",
+   "displayName": "Only secure connections to your Azure Cache for Redis should be enabled",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "233a2a17-77ca-4fb1-9b6b-69223d272a44": {
+   "ref": "allowedServicePortsInKubernetesCluster",
+   "displayName": "Kubernetes cluster services should listen only on allowed ports",
+   "version": "8.2.0",
+   "deprecated": false,
+   "required": [
+    "allowedServicePortsList"
+   ]
+  },
+  "2393d2cf-a342-44cd-a2e2-fe0188fd1234": {
+   "ref": "azureSignalRServiceShouldUsePrivateLinkMonitoringEffect",
+   "displayName": "Azure SignalR Service should use private link",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "245fc9df-fa96-4414-9a0b-3738c2f7341c": {
+   "ref": "diagnosticsLogsInKubernetesMonitoring",
+   "displayName": "Resource logs in Azure Kubernetes Service should be enabled",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "258823f2-4595-4b52-b333-cc96192710d8": {
+   "ref": "azureDatabricksWorkspacesShouldUsePrivateLink",
+   "displayName": "Azure Databricks Workspaces should use private link",
+   "version": "1.0.2",
+   "deprecated": false,
+   "required": []
+  },
+  "2913021d-f2fd-4f3d-b958-22354e2bdbcb": {
+   "ref": "appServicesAdvancedThreatProtectionMonitoringEffect",
+   "displayName": "Azure Defender for App Service should be enabled",
+   "version": "1.0.3",
+   "deprecated": false,
+   "required": []
+  },
+  "2a1a9cdf-e04d-429a-8416-3bfb72a1b26f": {
+   "ref": "storageAccountsShouldRestrictNetworkAccessUsingVirtualNetworkRulesMonitoringEffect",
+   "displayName": "Storage accounts should restrict network access using virtual network rules",
+   "version": "1.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "2b9ad585-36bc-4615-b300-fd4435808332": {
+   "ref": "managedIdentityShouldBeUsedInYourWebAppMonitoringEffect",
+   "displayName": "App Service apps should use managed identity",
+   "version": "3.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "32e6bbec-16b6-44c2-be37-c5b672d103cf": {
+   "ref": "azureSQLDatabaseShouldBeRunningTLSVersion12OrNewer",
+   "displayName": "Azure SQL Database should be running TLS version 1.2 or newer",
+   "version": "2.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "339353f6-2387-4a45-abe4-7f529d121046": {
+   "ref": "identityRemoveExternalAccountWithOwnerPermissionsMonitoringNew",
+   "displayName": "Guest accounts with owner permissions on Azure resources should be removed",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "34c877ad-507e-4c82-993e-3452a6e0ad3c": {
+   "ref": "disableUnrestrictedNetworkToStorageAccountMonitoring",
+   "displayName": "Storage accounts should restrict network access",
+   "version": "1.2.0",
+   "deprecated": false,
+   "required": []
+  },
+  "34f95f76-5386-4de7-b824-0d8478470c9d": {
+   "ref": "diagnosticsLogsInLogicAppsMonitoring",
+   "displayName": "Resource logs in Logic Apps should be enabled",
+   "version": "5.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "3657f5a0-770e-44a3-b44e-9431ba1e9735": {
+   "ref": "encryptionOfAutomationAccountMonitoring",
+   "displayName": "Automation account variables should be encrypted",
+   "version": "1.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "36f0d6bc-a253-4df8-b25b-c3a5023ff443": {
+   "ref": "hciDataInTransitComplianceMonitoringAtCluster",
+   "displayName": "[Preview]: Host and VM networking should be protected on Azure Stack HCI systems",
+   "version": "1.0.0-preview",
+   "deprecated": false,
+   "required": []
+  },
+  "37e0d2fe-28a5-43d6-a273-67d37d1f5606": {
+   "ref": "classicStorageAccountsMonitoring",
+   "displayName": "Storage accounts should be migrated to new Azure Resource Manager resources",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "383856f8-de7f-44a2-81fc-e5135b5c2aa4": {
+   "ref": "diagnosticsLogsInIoTHubMonitoring",
+   "displayName": "Resource logs in IoT Hub should be enabled",
+   "version": "3.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "399b2637-a50f-4f95-96f8-3a145476eb15": {
+   "ref": "fTPSOnlyShouldBeRequiredInYourFunctionAppMonitoringEffect",
+   "displayName": "Function apps should require FTPS only",
+   "version": "3.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "3aa03346-d8c5-4994-a5bc-7652c2a2aef1": {
+   "ref": "aPIManagementServiceShouldNotHaveAllApisScopedSubscriptions",
+   "displayName": "API Management subscriptions should not be scoped to all APIs",
+   "version": "1.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "3ac7c827-eea2-4bde-acc7-9568cd320efa": {
+   "ref": "serverSecretFindingsMonitoring",
+   "displayName": "Machines should have secret findings resolved",
+   "version": "1.0.2",
+   "deprecated": false,
+   "required": []
+  },
+  "3bc8a0d5-38e0-4a3d-a657-2cb64468fc34": {
+   "ref": "mySqlFlexibleServersAdvancedDataSecurityMonitoring",
+   "displayName": "Azure Defender for SQL should be enabled for unprotected MySQL flexible servers",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "3dc5edcd-002d-444c-b216-e123bbfa37c0": {
+   "ref": "gcWindowsDiskEncryptionMonitoring",
+   "displayName": "Windows virtual machines should enable Azure Disk Encryption or EncryptionAtHost.",
+   "version": "1.1.1",
+   "deprecated": false,
+   "required": []
+  },
+  "404c3081-a854-4457-ae30-26a93ef643f9": {
+   "ref": "secureTransferToStorageAccountMonitoring",
+   "displayName": "Secure transfer to storage accounts should be enabled",
+   "version": "2.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "40e85574-ef33-47e8-a854-7a65c7500560": {
+   "ref": "mySqlServerADOnlyEnabledMonitoring",
+   "displayName": "Azure MySQL flexible server should have Microsoft Entra Only Authentication enabled",
+   "version": "1.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "423dd1ba-798e-40e4-9c4d-b6902674b423": {
+   "ref": "KubernetesClustersShouldDisableAutomountingAPICredentialsMonitoringEffect",
+   "displayName": "Kubernetes clusters should disable automounting API credentials",
+   "version": "4.2.0",
+   "deprecated": false,
+   "required": []
+  },
+  "428256e6-1fac-4f48-a757-df34c2b3336d": {
+   "ref": "diagnosticsLogsInBatchAccountMonitoring",
+   "displayName": "Resource logs in Batch accounts should be enabled",
+   "version": "5.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "438c38d2-3772-465a-a9cc-7a6666a275ce": {
+   "ref": "azureMachineLearningWorkspacesShouldDisablePublicNetworkAccess",
+   "displayName": "Azure Machine Learning Workspaces should disable public network access",
+   "version": "2.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "45e05259-1eb5-4f70-9574-baf73e9d219b": {
+   "ref": "azureMachineLearningWorkspacesShouldUsePrivateLinkMonitoringEffect",
+   "displayName": "Azure Machine Learning workspaces should use private link",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "47a1ee2f-2a2a-4576-bf2a-e0e36709c2b8": {
+   "ref": "NoSharingSensitiveHostNamespacesInKubernetes",
+   "displayName": "Kubernetes cluster containers should not share host namespaces",
+   "version": "6.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "48af4db5-9b8b-401c-8e74-076be876a430": {
+   "ref": "georedundantBackupShouldBeEnabledForAzureDatabaseForPostgresqlMonitoringEffect",
+   "displayName": "Geo-redundant backup should be enabled for Azure Database for PostgreSQL",
+   "version": "1.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "4b90e17e-8448-49db-875e-bd83fb6f804f": {
+   "ref": "azureEventGridTopicsShouldUsePrivateLinkMonitoringEffect",
+   "displayName": "Azure Event Grid topics should use private link",
+   "version": "1.0.2",
+   "deprecated": false,
+   "required": []
+  },
+  "4d24b6d4-5e53-4a4f-a7f4-618fa573ee4b": {
+   "ref": "fTPSShouldBeRequiredInYourWebAppMonitoringEffect",
+   "displayName": "App Service apps should require FTPS only",
+   "version": "3.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "4da35fc9-c9e7-4960-aec9-797fe7d9051d": {
+   "ref": "virtualMachinesAdvancedThreatProtectionMonitoringEffect",
+   "displayName": "Azure Defender for servers should be enabled",
+   "version": "1.0.3",
+   "deprecated": false,
+   "required": []
+  },
+  "4f11b553-d42e-4e3a-89be-32ca364cad4c": {
+   "ref": "identityDesignateLessThanOwnersMonitoring",
+   "displayName": "A maximum of 3 owners should be designated for your subscription",
+   "version": "3.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "4f4f78b8-e367-4b10-a341-d9a4ad5cf1c7": {
+   "ref": "subscriptionsShouldHaveAContactEmailAddressForSecurityIssuesMonitoringEffect",
+   "displayName": "Subscriptions should have a contact email address for security issues",
+   "version": "1.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "4fa4b6c0-31ca-4c0d-b10d-24b96f62a751": {
+   "ref": "StorageDisallowPublicAccess",
+   "displayName": "Storage account public access should be disallowed",
+   "version": "3.1.1",
+   "deprecated": false,
+   "required": []
+  },
+  "501541f7-f7e7-4cd6-868c-4190fdad3ac9": {
+   "ref": "serverVulnerabilityAssessment",
+   "displayName": "A vulnerability assessment solution should be enabled on your virtual machines",
+   "version": "3.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "511f5417-5d12-434d-ab2e-816901e72a5e": {
+   "ref": "AllowedAppArmorProfilesInKubernetesCluster",
+   "displayName": "Kubernetes cluster containers should only use allowed AppArmor profiles",
+   "version": "6.2.1",
+   "deprecated": false,
+   "required": []
+  },
+  "51c1490f-3319-459c-bbbc-7f391bbed753": {
+   "ref": "azureDatabricksClustersShouldDisablePublicIp",
+   "displayName": "Azure Databricks Clusters should disable public IP",
+   "version": "1.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "5450f5bd-9c72-4390-a9c4-a7aba4edfdd2": {
+   "ref": "azureCosmosDbAccountsShouldHaveLocalAuthenticationMethodsDisabledMonitoringEffect",
+   "displayName": "Cosmos DB database accounts should have local authentication methods disabled",
+   "version": "1.2.0",
+   "deprecated": false,
+   "required": []
+  },
+  "55615ac9-af46-4a59-874e-391cc3dfb490": {
+   "ref": "firewallShouldBeEnabledOnKeyVaultMonitoringEffect",
+   "displayName": "Azure Key Vault should have firewall enabled or public network access disabled",
+   "version": "1.5.0",
+   "deprecated": false,
+   "required": []
+  },
+  "564feb30-bf6a-4854-b4bb-0d2d2d1e6c66": {
+   "ref": "webApplicationFirewallShouldBeEnabledForApplicationGatewayMonitoringEffect",
+   "displayName": "Web Application Firewall (WAF) should be enabled for Application Gateway",
+   "version": "2.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "5744710e-cc2f-4ee8-8809-3b11e89f4bc9": {
+   "ref": "webAppRestrictCORSAccessMonitoring",
+   "displayName": "App Service apps should not have CORS configured to allow every resource to access your apps",
+   "version": "2.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "5752e6d6-1206-46d8-8ab1-ecc2f71a8112": {
+   "ref": "windowsWebServersShouldBeConfiguredToUseSecureCommunicationProtocolsMonitoringEffect",
+   "displayName": "Windows machines should be configured to use secure communication protocols",
+   "version": "4.1.1",
+   "deprecated": false,
+   "required": []
+  },
+  "58440f8a-10c5-4151-bdce-dfbaad4a20b7": {
+   "ref": "cosmosDBAaccountsShouldUsePrivateLink",
+   "displayName": "CosmosDB accounts should use private link",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "5b9159ae-1701-4a6f-9a7a-aa9c8ddd0580": {
+   "ref": "containerRegistriesShouldBeEncryptedWithACustomerManagedKeyMonitoringEffect",
+   "displayName": "Container registries should be encrypted with a customer-managed key",
+   "version": "1.1.2",
+   "deprecated": false,
+   "required": []
+  },
+  "5e6bf724-0154-49bc-985f-27b2e07e636b": {
+   "ref": "hciSecuredCoreComplianceMonitoringAtCluster",
+   "displayName": "[Preview]: Azure Stack HCI servers should meet Secured-core requirements",
+   "version": "1.0.0-preview",
+   "deprecated": false,
+   "required": []
+  },
+  "617c02be-7f02-4efd-8836-3180d47b6c68": {
+   "ref": "clusterProtectionLevelInServiceFabricMonitoring",
+   "displayName": "Service Fabric clusters should have the ClusterProtectionLevel property set to EncryptAndSign",
+   "version": "1.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "630c64f9-8b6b-4c64-b511-6544ceff6fd6": {
+   "ref": "authenticationToLinuxMachinesShouldRequireSSHKeysMonitoringEffect",
+   "displayName": "Authentication to Linux machines should require SSH keys",
+   "version": "3.2.0",
+   "deprecated": false,
+   "required": []
+  },
+  "640d2586-54d2-465f-877f-9ffc1d2109f4": {
+   "ref": "defenderForStorageShouldBeEnabledMonitoring",
+   "displayName": "Microsoft Defender for Storage should be enabled",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "6581d072-105e-4418-827f-bd446d56421b": {
+   "ref": "sqlServersVirtualMachinesAdvancedDataSecurityMonitoringEffect",
+   "displayName": "Azure Defender for SQL servers on machines should be enabled",
+   "version": "1.0.2",
+   "deprecated": false,
+   "required": []
+  },
+  "67121cc7-ff39-4ab8-b7e3-95b84dab487d": {
+   "ref": "cognitiveServicesAccountsShouldEnableDataEncryptionWithACustomerManagedKeyMonitoringEffect",
+   "displayName": "Azure AI Services resources should encrypt data at rest with a customer-managed key (CMK)",
+   "version": "2.2.0",
+   "deprecated": false,
+   "required": []
+  },
+  "672fe5a1-2fcd-42d7-b85d-902b6e28c6ff": {
+   "ref": "GuestAttestationExtensionShouldBeInstalledOnSupportedLinuxVirtualMachinesMonitoringEffect",
+   "displayName": "Guest Attestation extension should be installed on supported Linux virtual machines",
+   "version": "6.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "6b2122c1-8120-4ff5-801b-17625a355590": {
+   "ref": "arcEnabledKubernetesClustersShouldHaveAzurePolicyExtensionInstalled",
+   "displayName": "Azure Arc enabled Kubernetes clusters should have the Azure Policy extension installed",
+   "version": "1.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "6ba6d016-e7c3-4842-b8f2-4992ebc0d72d": {
+   "ref": "serverSqlDbVulnerabilityAssesmentMonitoring",
+   "displayName": "SQL servers on machines should have vulnerability findings resolved",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "6d555dd1-86f2-4f1c-8ed7-5abae7c6cbab": {
+   "ref": "functionAppEnforceHttpsMonitoring",
+   "displayName": "Function apps should only be accessible over HTTPS",
+   "version": "5.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "6e2593d9-add6-4083-9c9b-4b7d2188c899": {
+   "ref": "emailNotificationForHighSeverityAlertsShouldBeEnabledMonitoringEffect",
+   "displayName": "Email notification for high severity alerts should be enabled",
+   "version": "1.2.0",
+   "deprecated": false,
+   "required": []
+  },
+  "6ea81a52-5ca7-4575-9669-eaa910b7edf8": {
+   "ref": "synapseWorkspaceDisablingADOnlyAuthMonitoring",
+   "displayName": "Synapse Workspaces should have Microsoft Entra-only authentication enabled",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "6edd7eda-6dd8-40f7-810d-67160c639cd9": {
+   "ref": "storageAccountShouldUseAPrivateLinkConnectionMonitoringEffect",
+   "displayName": "Storage accounts should use private link",
+   "version": "2.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "6fac406b-40ca-413b-bf8e-0bf964659c25": {
+   "ref": "storageAccountsShouldUseCustomerManagedKeyForEncryptionMonitoringEffect",
+   "displayName": "Storage accounts should use customer-managed key for encryption",
+   "version": "1.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "71ef260a-8f18-47b7-abcb-62d0673d94dc": {
+   "ref": "cognitiveServicesAccountsShouldHaveLocalAuthenticationMethodsDisabled",
+   "displayName": "Azure AI Services resources should have key access disabled (disable local authentication)",
+   "version": "1.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "72650e9f-97bc-4b2a-ab5f-9781a9fcecbc": {
+   "ref": "windowsGuestConfigBaselinesMonitoring",
+   "displayName": "Windows machines should meet requirements of the Azure compute security baseline",
+   "version": "2.1.1",
+   "deprecated": false,
+   "required": []
+  },
+  "7595c971-233d-4bcf-bd18-596129188c49": {
+   "ref": "privateEndpointShouldBeEnabledForMysqlServersMonitoringEffect",
+   "displayName": "Private endpoint should be enabled for MySQL servers",
+   "version": "1.0.2",
+   "deprecated": false,
+   "required": []
+  },
+  "7698e800-9299-47a6-b3b6-5a0fee576eed": {
+   "ref": "privateEndpointConnectionsOnAzureSQLDatabaseShouldBeEnabledMonitoringEffect",
+   "displayName": "Private endpoint connections on Azure SQL Database should be enabled",
+   "version": "1.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "7803067c-7d34-46e3-8c79-0ca68fc4036d": {
+   "ref": "azureCacheForRedisShouldUsePrivateEndpointMonitoringEffect",
+   "displayName": "Azure Cache for Redis should use private link",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "7804b5c7-01dc-4723-969b-ae300cc07ff1": {
+   "ref": "azureMachineLearningComputesShouldBeInAVirtualNetwork",
+   "displayName": "Azure Machine Learning Computes should be in a virtual network",
+   "version": "1.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "78215662-041e-49ed-a9dd-5385911b3a1f": {
+   "ref": "sqlManagedInstanceADOnlyEnabledMonitoring",
+   "displayName": "Azure SQL Managed Instances should have Microsoft Entra-only authentication enabled during creation",
+   "version": "1.2.0",
+   "deprecated": false,
+   "required": []
+  },
+  "7926a6d1-b268-4586-8197-e8ae90c877d7": {
+   "ref": "enableDefenderForApis",
+   "displayName": "Microsoft Defender for APIs should be enabled",
+   "version": "1.0.3",
+   "deprecated": false,
+   "required": []
+  },
+  "797b37f7-06b8-444c-b1ad-fc62867f335a": {
+   "ref": "azureCosmosDBShouldDisablePublicNetworkAccess",
+   "displayName": "Azure Cosmos DB should disable public network access",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "7fe3b40f-802b-4cdd-8bd4-fd799c948cc2": {
+   "ref": "sqlServersAdvancedDataSecurityMonitoringEffect",
+   "displayName": "Azure Defender for Azure SQL Database servers should be enabled",
+   "version": "1.0.2",
+   "deprecated": false,
+   "required": []
+  },
+  "82339799-d096-41ae-8538-b108becf0970": {
+   "ref": "georedundantBackupShouldBeEnabledForAzureDatabaseForMysqlMonitoringEffect",
+   "displayName": "Geo-redundant backup should be enabled for Azure Database for MySQL",
+   "version": "1.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "82985f06-dc18-4a48-bc1c-b9f4f0098cfe": {
+   "ref": "AllowedHostNetworkingAndPortsInKubernetesCluster",
+   "displayName": "Kubernetes cluster pods should only use approved host network and port list",
+   "version": "8.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "83a214f7-d01a-484b-91a9-ed54470c9a6a": {
+   "ref": "diagnosticsLogsInEventHubMonitoring",
+   "displayName": "Resource logs in Event Hub should be enabled",
+   "version": "5.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "83cef61d-dbd1-4b20-a4fc-5fbc7da10833": {
+   "ref": "bringYourOwnKeyDataProtectionShouldBeEnabledForMySqlServersMonitoringEffect",
+   "displayName": "MySQL servers should use customer-managed keys to encrypt data at rest",
+   "version": "1.0.4",
+   "deprecated": false,
+   "required": []
+  },
+  "862e97cf-49fc-4a5c-9de4-40d4e2e7c8eb": {
+   "ref": "azureCosmosDBAccountsShouldHaveFirewallRulesMonitoringEffect",
+   "displayName": "Azure Cosmos DB accounts should have firewall rules",
+   "version": "2.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "89099bee-89e0-4b26-a5f4-165451757743": {
+   "ref": "sQLServersShouldBeConfiguredWithAuditingRetentionDaysGreaterThan90DaysMonitoringEffect",
+   "displayName": "SQL servers with auditing to storage account destination should be configured with 90 days retention or higher",
+   "version": "3.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "8ac833bd-f505-48d5-887e-c993a1d3eea0": {
+   "ref": "apimApiEndpointsShouldbeAuthenticated",
+   "displayName": "API endpoints in Azure API Management should be authenticated",
+   "version": "1.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "8c6a50c6-9ffd-4ae7-986f-5fa6111f9a54": {
+   "ref": "storageAccountsShouldPreventSharedKeyAccess",
+   "displayName": "Storage accounts should prevent shared key access",
+   "version": "2.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "8d7e1fde-fe26-4b5f-8108-f8e432cbc2be": {
+   "ref": "identityRemoveDeprecatedAccountMonitoringNew",
+   "displayName": "Blocked accounts with read and write permissions on Azure resources should be removed",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "8dfab9c4-fe7b-49ad-85e4-1e9be085358f": {
+   "ref": "arcEnabledKubernetesClustersShouldHaveAzureDefendersExtensionInstalled",
+   "displayName": "[Preview]: Azure Arc enabled Kubernetes clusters should have Microsoft Defender for Cloud extension installed",
+   "version": "6.0.0-preview",
+   "deprecated": false,
+   "required": []
+  },
+  "91a78b24-f231-4a8a-8da9-02c35b2b6510": {
+   "ref": "diagnosticLogsInAppServicesShouldBeEnabledMonitoringEffect",
+   "displayName": "App Service apps should have resource logs enabled",
+   "version": "2.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "92bb331d-ac71-416a-8c91-02f2cb734ce4": {
+   "ref": "aPIManagementServiceShouldNotBypassCertificateValidation",
+   "displayName": "API Management calls to API backends should not bypass certificate thumbprint or name validation",
+   "version": "1.0.2",
+   "deprecated": false,
+   "required": []
+  },
+  "94e1c2ac-cbbe-4cac-a2b5-389c812dee87": {
+   "ref": "identityRemoveExternalAccountWithWritePermissionsMonitoringNew",
+   "displayName": "Guest accounts with write permissions on Azure resources should be removed",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "95edb821-ddaf-4404-9732-666045e056b4": {
+   "ref": "privilegedContainersShouldBeAvoided",
+   "displayName": "Kubernetes cluster should not allow privileged containers",
+   "version": "9.2.0",
+   "deprecated": false,
+   "required": []
+  },
+  "97566dd7-78ae-4997-8b36-1c7bfe0d8121": {
+   "ref": "previewSecureBootShouldBeEnabledOnSupportedWindowsVirtualMachinesMonitoringEffect",
+   "displayName": "Secure Boot should be enabled on supported Windows virtual machines",
+   "version": "4.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "9830b652-8523-49cc-b1b3-e17dce1127ca": {
+   "ref": "azureEventGridDomainsShouldUsePrivateLinkMonitoringEffect",
+   "displayName": "Azure Event Grid domains should use private link",
+   "version": "1.0.2",
+   "deprecated": false,
+   "required": []
+  },
+  "98728c90-32c7-4049-8429-847dc0f4fe37": {
+   "ref": "secretsExpirationSet",
+   "displayName": "Key Vault secrets should have an expiration date",
+   "version": "1.0.2",
+   "deprecated": false,
+   "required": []
+  },
+  "9c25c9e4-ee12-4882-afd2-11fb9d87893f": {
+   "ref": "azureDatabricksWorkspacesShouldBeInAVirtualNetwork",
+   "displayName": "Azure Databricks Workspaces should be in a virtual network",
+   "version": "1.0.2",
+   "deprecated": false,
+   "required": []
+  },
+  "9daedab3-fb2d-461e-b861-71790eead4f6": {
+   "ref": "nextGenerationFirewallMonitoring",
+   "displayName": "All network ports should be restricted on network security groups associated to your virtual machine",
+   "version": "3.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "9dfea752-dd46-4766-aed1-c355fa93fb91": {
+   "ref": "azureSQLManagedInstancesShouldDisablePublicNetworkAccess",
+   "displayName": "Azure SQL Managed Instances should disable public network access",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "9f061a12-e40d-4183-a00e-171812443373": {
+   "ref": "KubernetesClustersShouldNotUseTheDefaultNamespaceMonitoringEffect",
+   "displayName": "Kubernetes clusters should not use the default namespace",
+   "version": "4.2.0",
+   "deprecated": false,
+   "required": []
+  },
+  "a1840de2-8088-4ea8-b153-b4c723e9cb01": {
+   "ref": "azureKubernetesServiceClustersShouldHaveSecurityProfileEnabled",
+   "displayName": "Azure Kubernetes Service clusters should have Defender profile enabled",
+   "version": "2.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "a21f8c92-9e22-4f09-b759-50500d1d2dda": {
+   "ref": "GuestAttestationExtensionShouldBeInstalledOnSupportedLinuxVirtualMachinesScaleSetsMonitoringEffect",
+   "displayName": "Guest Attestation extension should be installed on supported Linux virtual machines scale sets",
+   "version": "5.2.0",
+   "deprecated": false,
+   "required": []
+  },
+  "a451c1ef-c6ca-483d-87ed-f49761e3ffb5": {
+   "ref": "useRbacRulesMonitoring",
+   "displayName": "Audit usage of custom RBAC roles",
+   "version": "1.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "a4af4a39-4135-47fb-b175-47fbdf85311d": {
+   "ref": "webAppEnforceHttpsMonitoring",
+   "displayName": "App Service apps should only be accessible over HTTPS",
+   "version": "4.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "a6abeaec-4d90-4a02-805f-6b26c4d3fbe9": {
+   "ref": "privateEndpointShouldBeConfiguredForKeyVaultMonitoringEffect",
+   "displayName": "Azure Key Vaults should use private link",
+   "version": "1.2.1",
+   "deprecated": false,
+   "required": []
+  },
+  "a6fb4358-5bf4-4ad7-ba82-2cd2f41ce5e9": {
+   "ref": "sqlServerAuditingMonitoring",
+   "displayName": "Auditing on SQL server should be enabled",
+   "version": "2.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "a7aca53f-2ed4-4466-a25e-0b45ade68efd": {
+   "ref": "vnetEnableDDoSProtectionMonitoring",
+   "displayName": "Azure DDoS Protection should be enabled",
+   "version": "3.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "abda6d70-9778-44e7-84a8-06713e6db027": {
+   "ref": "sqlServerADOnlyEnabledMonitoring",
+   "displayName": "Azure SQL logical servers should have Microsoft Entra-only authentication enabled during creation",
+   "version": "1.3.0",
+   "deprecated": false,
+   "required": []
+  },
+  "abfb4388-5bf4-4ad7-ba82-2cd2f41ceae9": {
+   "ref": "sqlServerAdvancedDataSecurityMonitoring",
+   "displayName": "Azure Defender for SQL should be enabled for unprotected Azure SQL servers",
+   "version": "2.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "abfb7388-5bf4-4ad7-ba99-2cd2f41cebb9": {
+   "ref": "sqlManagedInstanceAdvancedDataSecurityMonitoring",
+   "displayName": "Azure Defender for SQL should be enabled for unprotected SQL Managed Instances",
+   "version": "1.0.2",
+   "deprecated": false,
+   "required": []
+  },
+  "ac01ad65-10e5-46df-bdd9-6b0cad13e1d2": {
+   "ref": "ensureManagedInstanceTDEIsEncryptedWithYourOwnKeyMonitoring",
+   "displayName": "SQL managed instances should use customer-managed keys to encrypt data at rest",
+   "version": "2.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "ac4a19c2-fa67-49b4-8ae5-0b2e78c49457": {
+   "ref": "kubernetesServiceRbacEnabledMonitoring",
+   "displayName": "Role-Based Access Control (RBAC) should be used on Kubernetes Services",
+   "version": "1.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "ae89ebca-1c92-4898-ac2c-9f63decb045c": {
+   "ref": "gcExtOnVMMonitoring",
+   "displayName": "Guest Configuration extension should be installed on your machines",
+   "version": "1.0.3",
+   "deprecated": false,
+   "required": []
+  },
+  "af35e2a4-ef96-44e7-a9ae-853dd97032c4": {
+   "ref": "azureSpringCloudShouldUseNetworkInjectionMonitoringEffect",
+   "displayName": "Azure Spring Cloud should use network injection",
+   "version": "1.2.0",
+   "deprecated": false,
+   "required": []
+  },
+  "afe0c3be-ba3b-4544-ba52-0c99672a8ad6": {
+   "ref": "resourceLogsInAzureMachineLearningWorkspacesShouldBeEnabled",
+   "displayName": "Resource logs in Azure Machine Learning Workspaces should be enabled",
+   "version": "1.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "b0f33259-77d7-4c9e-aac6-3aabcfae693c": {
+   "ref": "jitNetworkAccessMonitoring",
+   "displayName": "Management ports of virtual machines should be protected with just-in-time network access control",
+   "version": "3.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "b3a22bc9-66de-45fb-98fa-00f5df42f41a": {
+   "ref": "sqlServerDisableADOnlyAuthMonitoring",
+   "displayName": "Azure SQL Database should have Microsoft Entra-only authentication enabled",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "b4330a05-a843-4bc8-bf9a-cacce50c67f4": {
+   "ref": "diagnosticsLogsInSearchServiceMonitoring",
+   "displayName": "Resource logs in Search services should be enabled",
+   "version": "5.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "b4dec045-250a-48c2-b5cc-e0c4eec8b5b4": {
+   "ref": "postgreSqlServerADAdminisMonitoring",
+   "displayName": "A Microsoft Entra administrator should be provisioned for PostgreSQL servers",
+   "version": "1.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "b52376f7-9612-48a1-81cd-1ffe4b61032c": {
+   "ref": "publicNetworkAccessShouldBeDisabledForPostgreSqlServersMonitoringEffect",
+   "displayName": "Public network access should be disabled for PostgreSQL servers",
+   "version": "2.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "b54ed75b-3e1a-44ac-a333-05ba39b99ff0": {
+   "ref": "aadAuthenticationInServiceFabricMonitoring",
+   "displayName": "Service Fabric clusters should only use Azure Active Directory for client authentication",
+   "version": "1.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "b6e2945c-0b7b-40f5-9233-7a5323b5cdc6": {
+   "ref": "networkWatcherShouldBeEnabledMonitoringEffect",
+   "displayName": "Network Watcher should be enabled",
+   "version": "3.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "b741306c-968e-4b67-b916-5675e5c709f4": {
+   "ref": "aPIManagementServiceShouldHaveDirectManagementEndpointDisabled",
+   "displayName": "API Management direct management endpoint should not be enabled",
+   "version": "1.0.2",
+   "deprecated": false,
+   "required": []
+  },
+  "ba769a63-b8cc-4b2d-abf6-ac33c7204be8": {
+   "ref": "azureMachineLearningWorkspacesShouldBeEncryptedWithACustomerManagedKeyMonitoringEffect",
+   "displayName": "Azure Machine Learning workspaces should be encrypted with a customer-managed key",
+   "version": "1.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "bb91dfba-c30d-4263-9add-9c2384e659a6": {
+   "ref": "networkSecurityGroupsOnInternalVirtualMachinesMonitoring",
+   "displayName": "Non-internet-facing virtual machines should be protected with network security groups",
+   "version": "3.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "bd352bd5-2853-4985-bf0d-73806b4a5744": {
+   "ref": "disableIPForwardingMonitoring",
+   "displayName": "IP Forwarding on your virtual machine should be disabled",
+   "version": "3.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "bd876905-5b84-4f73-ab2d-2e7a7c4568d9": {
+   "ref": "systemUpdatesAutoAssessmentMode",
+   "displayName": "Machines should be configured to periodically check for missing system updates",
+   "version": "3.10.0",
+   "deprecated": false,
+   "required": []
+  },
+  "bed48b13-6647-468e-aa2f-1af1d3f4dd40": {
+   "ref": "windowsDefenderExploitGuardMonitoring",
+   "displayName": "Windows Defender Exploit Guard should be enabled on your machines",
+   "version": "2.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "c15dcc82-b93c-4dcb-9332-fbf121685b54": {
+   "ref": "aPIManagementServiceShouldHaveBackendCallsAuthenticated",
+   "displayName": "API Management calls to API backends should be authenticated",
+   "version": "1.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "c26596ff-4d70-4e6a-9a30-c2506bd2f80c": {
+   "ref": "AllowedCapabilitiesInKubernetesCluster",
+   "displayName": "Kubernetes cluster containers should only use allowed capabilities",
+   "version": "6.2.0",
+   "deprecated": false,
+   "required": []
+  },
+  "c3d20c29-b36d-48fe-808b-99a87530ad99": {
+   "ref": "AzureDefenderForResourceManagerShouldBeEnabledMonitoringEffect",
+   "displayName": "Azure Defender for Resource Manager should be enabled",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "c6283572-73bb-4deb-bf2c-7a2b8f7462cb": {
+   "ref": "SQLServerTargetedAutoprovisioningShouldBeEnabledForSQLServersOnMachinesPlan",
+   "displayName": "SQL server-targeted autoprovisioning should be enabled for SQL servers on machines plan",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "c8acafaf-3d23-44d1-9624-978ef0f8652c": {
+   "ref": "unusedApisShouldbeDisabledAndRemovedFromApim",
+   "displayName": "API endpoints that are unused should be disabled and removed from the Azure API Management service",
+   "version": "1.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "c95c74d9-38fe-4f0d-af86-0c7d626a315c": {
+   "ref": "diagnosticsLogsInDataLakeAnalyticsMonitoring",
+   "displayName": "Resource logs in Data Lake Analytics should be enabled",
+   "version": "5.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "ca610c1d-041c-4332-9d88-7ed3094967c7": {
+   "ref": "appConfigurationShouldUsePrivateLinkMonitoringEffect",
+   "displayName": "App Configuration should use private link",
+   "version": "1.0.2",
+   "deprecated": false,
+   "required": []
+  },
+  "ca88aadc-6e2b-416c-9de2-5a0f01d1693f": {
+   "ref": "gcLinuxDiskEncryptionMonitoring",
+   "displayName": "Linux virtual machines should enable Azure Disk Encryption or EncryptionAtHost.",
+   "version": "1.2.1",
+   "deprecated": false,
+   "required": []
+  },
+  "cb510bfd-1cba-4d9f-a230-cb0976f4bb71": {
+   "ref": "webAppDisableRemoteDebuggingMonitoring",
+   "displayName": "App Service apps should have remote debugging turned off",
+   "version": "2.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "cf820ca0-f99e-4f3e-84fb-66e913812d21": {
+   "ref": "diagnosticsLogsInKeyVaultMonitoring",
+   "displayName": "Resource logs in Key Vault should be enabled",
+   "version": "5.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "d0793b48-0edc-4296-a390-4c75d1bdfd71": {
+   "ref": "containerRegistriesShouldNotAllowUnrestrictedNetworkAccessMonitoringEffect",
+   "displayName": "Container registries should not allow unrestricted network access",
+   "version": "2.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "d158790f-bfb0-486c-8631-2dc6b4e8e6af": {
+   "ref": "enforceSSLConnectionShouldBeEnabledForPostgresqlDatabaseServersMonitoringEffect",
+   "displayName": "Enforce SSL connection should be enabled for PostgreSQL database servers",
+   "version": "1.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "d26f7642-7545-4e18-9b75-8c9bbdee3a9a": {
+   "ref": "gcExtOnVMWithNoSAMIMonitoring",
+   "displayName": "Virtual machines' Guest Configuration extension should be deployed with system-assigned managed identity",
+   "version": "1.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "d2e7ea85-6b44-4317-a0be-1b951587f626": {
+   "ref": "KubernetesClustersShouldNotGrantCAPSYSADMINSecurityCapabilitiesMonitoringEffect",
+   "displayName": "Kubernetes clusters should not grant CAP_SYS_ADMIN security capabilities",
+   "version": "5.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "d31e5c31-63b2-4f12-887b-e49456834fa1": {
+   "ref": "synapseWorkspaceAdvancedDataSecurityMonitoring",
+   "displayName": "Microsoft Defender for SQL should be enabled for unprotected Synapse workspaces",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "d38668f5-d155-42c7-ab3d-9b57b50f8fbf": {
+   "ref": "postgreSqlFlexibleServersAdvancedDataSecurityMonitoring",
+   "displayName": "Azure Defender for SQL should be enabled for unprotected PostgreSQL flexible servers",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "d6759c02-b87f-42b7-892e-71b3f471d782": {
+   "ref": "azureAIServicesResourcesShouldUseAzurePrivateLinkMonitoring",
+   "displayName": "Azure AI Services resources should use Azure Private Link",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "d9844e8a-1437-4aeb-a32c-0c992f056095": {
+   "ref": "publicNetworkAccessShouldBeDisabledForMySqlServersMonitoringEffect",
+   "displayName": "Public network access should be disabled for MySQL servers",
+   "version": "2.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "dad3a6b9-4451-492f-a95c-69efc6f3fada": {
+   "ref": "hciWdacComplianceMonitoringAtCluster",
+   "displayName": "[Preview]: Azure Stack HCI servers should have consistently enforced application control policies",
+   "version": "1.0.0-preview",
+   "deprecated": false,
+   "required": []
+  },
+  "df49d893-a74c-421d-bc95-c663042e5b80": {
+   "ref": "ReadOnlyRootFileSystemInKubernetesCluster",
+   "displayName": "Kubernetes cluster containers should run with a read only root file system",
+   "version": "6.3.0",
+   "deprecated": false,
+   "required": []
+  },
+  "df73bd95-24da-4a4f-96b9-4e8b94b402bd": {
+   "ref": "aPIManagementServiceShouldDisableServiceConfigurationEndpoints",
+   "displayName": "API Management should disable public network access to the service configuration endpoints",
+   "version": "1.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "e345eecc-fa47-480f-9e88-67dcc122b164": {
+   "ref": "memoryAndCPULimitsInKubernetesCluster",
+   "displayName": "Kubernetes cluster containers CPU and memory resource limits should not exceed the specified limits",
+   "version": "9.3.0",
+   "deprecated": false,
+   "required": [
+    "cpuLimit",
+    "memoryLimit"
+   ]
+  },
+  "e71308d3-144b-4262-b144-efdc3cc90517": {
+   "ref": "networkSecurityGroupsOnSubnetsMonitoring",
+   "displayName": "Subnets should be associated with a Network Security Group",
+   "version": "3.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "e802a67a-daf5-4436-9ea6-f6d821dd0c5d": {
+   "ref": "enforceSSLConnectionShouldBeEnabledForMysqlDatabaseServersMonitoringEffect",
+   "displayName": "Enforce SSL connection should be enabled for MySQL database servers",
+   "version": "1.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "e8eef0a8-67cf-4eb4-9386-14b0e78733d4": {
+   "ref": "containerRegistriesShouldUsePrivateLinkMonitoringEffect",
+   "displayName": "Container registries should use private link",
+   "version": "1.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "e96a9a5f-07ca-471b-9bc5-6a0f33cbd68f": {
+   "ref": "azureMachineLearningComputesShouldHaveLocalAuthenticationMethodsDisabled",
+   "displayName": "Azure Machine Learning Computes should have local authentication methods disabled",
+   "version": "2.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "e9ac8f8e-ce22-4355-8f04-99b911d6be52": {
+   "ref": "identityRemoveExternalAccountWithReadPermissionsMonitoringNew",
+   "displayName": "Guest accounts with read permissions on Azure resources should be removed",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "ee7495e7-3ba7-40b6-bfee-c29e22cc75d4": {
+   "ref": "aPIManagementServiceShouldUseEncryptedProtocols",
+   "displayName": "API Management APIs should use only encrypted protocols",
+   "version": "2.0.2",
+   "deprecated": false,
+   "required": []
+  },
+  "ee8ca833-1583-4d24-837e-96c2af9488a4": {
+   "ref": "hciDataAtRestEncryptedComplianceMonitoringAtCluster",
+   "displayName": "[Preview]: Azure Stack HCI systems should have encrypted volumes",
+   "version": "1.0.0-preview",
+   "deprecated": false,
+   "required": []
+  },
+  "ef2a8f2a-b3d9-49cd-a8a8-9a3aaaf647d9": {
+   "ref": "vulnerabilityAssessmentOnServerMonitoring",
+   "displayName": "Vulnerability assessment should be enabled on your SQL servers",
+   "version": "3.1.0",
+   "deprecated": false,
+   "required": []
+  },
+  "ef619a2c-cc4d-4d03-b2ba-8c94a834d85b": {
+   "ref": "aPIManagementServicesShouldUseAVirtualNetworkMonitoringEffect",
+   "displayName": "API Management services should use a virtual network",
+   "version": "1.0.2",
+   "deprecated": false,
+   "required": []
+  },
+  "f06ddb64-5fa3-4b77-b166-acb36f7f6042": {
+   "ref": "MustRunAsNonRoot",
+   "displayName": "Kubernetes cluster pods and containers should only run with approved user and group IDs",
+   "version": "6.2.0",
+   "deprecated": false,
+   "required": []
+  },
+  "f0e6e85b-9b9f-4a4b-b67b-f730d42f1b0b": {
+   "ref": "latestTLSVersionShouldBeUsedInYourWebAppMonitoringEffect",
+   "displayName": "App Service apps should use the latest TLS version",
+   "version": "2.2.0",
+   "deprecated": false,
+   "required": []
+  },
+  "f110a506-2dcb-422e-bcea-d533fc8c35e2": {
+   "ref": "azureMachineLearningComputeInstancesshouldUseTheLatestOsImage",
+   "displayName": "Azure Machine Learning compute instances should be recreated to get the latest software updates",
+   "version": "1.0.3",
+   "deprecated": false,
+   "required": []
+  },
+  "f1cc7827-022c-473e-836e-5a51cae0b249": {
+   "ref": "aPIManagementServiceShouldUseKeyVaultForSecretNamedValues",
+   "displayName": "API Management secret named values should be stored in Azure Key Vault",
+   "version": "1.0.2",
+   "deprecated": false,
+   "required": []
+  },
+  "f655e522-adff-494d-95c2-52d4f6d56a42": {
+   "ref": "GuestAttestationExtensionShouldBeInstalledOnSupportedWindowsVirtualMachinesScaleSetsMonitoringEffect",
+   "displayName": "Guest Attestation extension should be installed on supported Windows virtual machines scale sets",
+   "version": "3.1.1",
+   "deprecated": false,
+   "required": []
+  },
+  "f6de0be7-9a8a-4b8a-b349-43cf02d22f7c": {
+   "ref": "networkSecurityGroupsOnVirtualMachinesMonitoring",
+   "displayName": "Internet-facing virtual machines should be protected with network security groups",
+   "version": "3.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "f85bf3e0-d513-442e-89c3-1784ad63382b": {
+   "ref": "systemUpdatesV2Monitoring",
+   "displayName": "System updates should be installed on your machines (powered by Update Center)",
+   "version": "1.0.1",
+   "deprecated": false,
+   "required": []
+  },
+  "f8d36e2f-389b-4ee4-898d-21aeb69a0f45": {
+   "ref": "diagnosticsLogsInServiceBusMonitoring",
+   "displayName": "Resource logs in Service Bus should be enabled",
+   "version": "5.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "f9be5368-9bf5-4b84-9e0a-7850da98bb46": {
+   "ref": "diagnosticsLogsInStreamAnalyticsMonitoring",
+   "displayName": "Resource logs in Azure Stream Analytics should be enabled",
+   "version": "5.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "f9d614c5-c173-4d56-95a7-b4437057d193": {
+   "ref": "latestTLSVersionShouldBeUsedInYourFunctionAppMonitoringEffect",
+   "displayName": "Function apps should use the latest TLS version",
+   "version": "2.3.0",
+   "deprecated": false,
+   "required": []
+  },
+  "fa498b91-8a7e-4710-9578-da944c68d1fe": {
+   "ref": "postgreSqlFlexibleServersEnableEntraOnlyAuthenticationMonitoring",
+   "displayName": "[Preview]: Azure PostgreSQL flexible server should have Microsoft Entra Only Authentication enabled",
+   "version": "1.0.0-preview",
+   "deprecated": false,
+   "required": []
+  },
+  "fc4d8e41-e223-45ea-9bf5-eada37891d87": {
+   "ref": "virtualMachinesAndVirtualMachineScaleSetsShouldHaveEncryptionAtHostEnabled",
+   "displayName": "Virtual machines and virtual machine scale sets should have encryption at host enabled",
+   "version": "1.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "fc5e4038-4584-4632-8c85-c0448d374b2c": {
+   "ref": "AzureFirewallEffect",
+   "displayName": "[Preview]: All Internet traffic should be routed via your deployed Azure Firewall",
+   "version": "3.0.0-preview",
+   "deprecated": false,
+   "required": []
+  },
+  "fc9b3da7-8347-4380-8e70-0a0361d8dedd": {
+   "ref": "linuxGuestConfigBaselinesMonitoring",
+   "displayName": "Linux machines should meet requirements for the Azure compute security baseline",
+   "version": "2.3.1",
+   "deprecated": false,
+   "required": []
+  },
+  "fdccbe47-f3e3-4213-ad5d-ea459b2fa077": {
+   "ref": "publicNetworkAccessShouldBeDisabledForMariaDbServersMonitoringEffect",
+   "displayName": "Public network access should be disabled for MariaDB servers",
+   "version": "2.0.0",
+   "deprecated": false,
+   "required": []
+  },
+  "febd0533-8e55-448f-b837-bd0e06f16469": {
+   "ref": "ensureAllowedContainerImagesInKubernetesCluster",
+   "displayName": "Kubernetes cluster containers should only use allowed images",
+   "version": "9.3.0",
+   "deprecated": false,
+   "required": [
+    "allowedContainerImagesRegex"
+   ]
+  },
+  "feedbf84-6b99-488c-acc2-71c829aa5ffc": {
+   "ref": "sqlDbVulnerabilityAssesmentMonitoring",
+   "displayName": "SQL databases should have vulnerability findings resolved",
+   "version": "4.1.0",
+   "deprecated": false,
+   "required": []
+  }
+ }
+}

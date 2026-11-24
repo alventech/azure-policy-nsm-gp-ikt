@@ -1,0 +1,138 @@
+{
+ "_note": "From NSM GP-IKT 2.1 measure to Microsoft cloud security benchmark (MCSB) control to built-in policies. Every policy GUID comes from Microsoft's MCSB initiative (source/mcsb-<version>.json); this file only says which MCSB controls, and which of their policies, support which NSM clause. 'include' keeps only the named policyDefinitionReferenceIds of a control, 'exclude' drops the named ones, neither means the whole control. strength: direkte = the setting is what the clause asks for; delvis = evidence for the clause within the stated scope, or Microsoft's check is stricter or narrower than NSM's wording. Weak links are left out and listed under left_out. 'scope' is shown in coverage.md and in the initiative's metadata, in Norwegian.",
+ "framework": "NSM GP-IKT 2.1",
+ "mcsb_version": "57.60.0",
+ "initiative_version": "0.1.0",
+ "measures": {
+  "2.2.3": {"links": [
+   {"mcsb": "NS-1", "include": ["networkSecurityGroupsOnSubnetsMonitoring", "networkSecurityGroupsOnVirtualMachinesMonitoring", "networkSecurityGroupsOnInternalVirtualMachinesMonitoring"], "clause": null, "strength": "delvis", "scope": "Virtuelle nettverk og virtuelle maskiner i Azure, i tildelt omfang",
+    "why": "NSM asks for zones and names 'virtualiserte nett' and 'mikrosegmentering'; a network security group on every subnet and machine shows each sits behind a zone boundary, not that the zone model fits the risk profile."},
+   {"mcsb": "NS-2", "include": ["aPIManagementServicesShouldUseAVirtualNetworkMonitoringEffect", "azureSpringCloudShouldUseNetworkInjectionMonitoringEffect", "azureMachineLearningComputesShouldBeInAVirtualNetwork", "azureDatabricksWorkspacesShouldBeInAVirtualNetwork"], "clause": null, "strength": "delvis", "scope": "PaaS-tjenester i Azure som kan plasseres i virtuelt nettverk, i tildelt omfang",
+    "why": "Placing a platform service inside a virtual network puts it in one of the organisation's zones instead of on the public network."}
+  ]},
+  "2.3.1": {"links": [
+   {"mcsb": "PV-6", "include": ["systemUpdatesV2Monitoring", "systemUpdatesAutoAssessmentMode"], "clause": "d", "strength": "direkte", "scope": "Azure- og Arc-maskiner i tildelt omfang",
+    "why": "'Installer sikkerhetsoppdateringer så fort som mulig' and d) 'automatisere': machines check for missing updates on a schedule and have none outstanding."},
+   {"mcsb": "PV-2", "include": ["azureMachineLearningComputeInstancesshouldUseTheLatestOsImage"], "clause": null, "strength": "direkte", "scope": "Azure Machine Learning-instanser i tildelt omfang",
+    "why": "Compute instances get security updates only when they are recreated on the latest image."}
+  ]},
+  "2.3.3": {"links": [
+   {"mcsb": "NS-8", "clause": "i", "strength": "direkte", "scope": "App Service og Functions i tildelt omfang",
+    "why": "i) 'eldre eller ubrukte protokoller': old TLS versions are switched off."},
+   {"mcsb": "DP-3", "include": ["fTPSOnlyShouldBeRequiredInYourFunctionAppMonitoringEffect", "fTPSShouldBeRequiredInYourWebAppMonitoringEffect", "azureSQLDatabaseShouldBeRunningTLSVersion12OrNewer", "windowsWebServersShouldBeConfiguredToUseSecureCommunicationProtocolsMonitoringEffect", "aPIManagementServiceShouldUseEncryptedProtocols"], "clause": "i", "strength": "direkte", "scope": "App Service, Functions, Azure SQL, API Management og Windows-servere i tildelt omfang",
+    "why": "i) 'eldre eller ubrukte protokoller': plain FTP, old TLS versions and unencrypted API protocols are switched off."},
+   {"mcsb": "PV-2", "include": ["functionAppDisableRemoteDebuggingMonitoring", "webAppDisableRemoteDebuggingMonitoring"], "clause": "iii", "strength": "direkte", "scope": "App Service og Functions i tildelt omfang",
+    "why": "iii) 'andre innebygde tjenester virksomheten ikke kommer til å benytte': remote debugging is a built-in service that production apps do not need."}
+  ]},
+  "2.3.4": {"links": [
+   {"mcsb": "PV-4", "include": ["windowsGuestConfigBaselinesMonitoring", "linuxGuestConfigBaselinesMonitoring"], "clause": "a", "strength": "delvis", "scope": "Windows- og Linux-servere i Azure og Arc, i tildelt omfang",
+    "why": "a) one centralised standard per type of unit: the servers meet the Azure compute security baseline. It counts as NSM's standard only if the organisation has adopted that baseline for its servers."}
+  ]},
+  "2.3.5": {"links": [
+   {"mcsb": "PV-4", "include": ["gcExtOnVMMonitoring", "windowsGuestConfigBaselinesMonitoring", "linuxGuestConfigBaselinesMonitoring"], "clause": "d", "strength": "delvis", "scope": "Windows- og Linux-servere i Azure og Arc, i tildelt omfang",
+    "why": "a) 'sammenlign regelmessig aktivert konfigurasjon ... mot den godkjente' and d) 'automatiser': machine configuration compares each server with the baseline continuously. The approved configuration here is Microsoft's baseline, and clients, firewalls and network equipment are outside."}
+  ]},
+  "2.3.6": {"links": [
+   {"mcsb": "NS-3", "include": ["jitNetworkAccessMonitoring", "restrictAccessToManagementPortsMonitoring"], "clause": "a", "strength": "direkte", "scope": "Virtuelle maskiner i Azure, i tildelt omfang",
+    "why": "a) ii) 'unngå å eksponere administrative grensesnitt på internett': management ports are closed, or opened only on request for a limited time."},
+   {"mcsb": "PV-2", "include": ["aPIManagementServiceShouldHaveDirectManagementEndpointDisabled"], "clause": "a", "strength": "direkte", "scope": "API Management i tildelt omfang",
+    "why": "a) ii): the direct management endpoint of API Management is an administrative interface that should not be exposed."}
+  ]},
+  "2.3.7": {"links": [
+   {"mcsb": "IM-6", "clause": null, "strength": "delvis", "scope": "Linux-maskiner i Azure og Arc, i tildelt omfang",
+    "why": "'redusere mulighet for passordbasert autentisering over nettverket': Linux machines accept SSH keys only. It says nothing about default passwords on other products."}
+  ]},
+  "2.5.1": {"links": [
+   {"mcsb": "NS-1", "include": ["nextGenerationFirewallMonitoring"], "clause": "a", "strength": "direkte", "scope": "Virtuelle maskiner i Azure, i tildelt omfang",
+    "why": "a) only allow-listed traffic between zones and towards the internet: network security groups do not leave all ports open."},
+   {"mcsb": "NS-3", "include": ["disableIPForwardingMonitoring", "AzureFirewallEffect"], "clause": "a", "strength": "direkte", "scope": "Virtuelle maskiner og virtuelle nettverk i Azure, i tildelt omfang",
+    "why": "a) traffic towards the internet passes the organisation's firewall, and machines do not route traffic around it."},
+   {"mcsb": "NS-2", "include": ["disableUnrestrictedNetworkToStorageAccountMonitoring", "storageAccountsShouldRestrictNetworkAccessUsingVirtualNetworkRulesMonitoringEffect", "kubernetesServiceAuthorizedIPRangesEnabledMonitoring", "containerRegistriesShouldNotAllowUnrestrictedNetworkAccessMonitoringEffect", "publicNetworkAccessShouldBeDisabledForMySqlServersMonitoringEffect", "publicNetworkAccessShouldBeDisabledForPostgreSqlServersMonitoringEffect", "firewallShouldBeEnabledOnKeyVaultMonitoringEffect", "publicNetworkAccessOnAzureSQLDatabaseShouldBeDisabledMonitoringEffect", "cognitiveServicesAccountsShouldRestrictNetworkAccessMonitoringEffect", "azureCosmosDBAccountsShouldHaveFirewallRulesMonitoringEffect", "azureCosmosDBShouldDisablePublicNetworkAccess", "azureMachineLearningWorkspacesShouldDisablePublicNetworkAccess", "azureDatabricksWorkspacesShouldDisablePublicNetworkAccess", "azureDatabricksClustersShouldDisablePublicIp", "aPIManagementServiceShouldDisableServiceConfigurationEndpoints", "azureSQLManagedInstancesShouldDisablePublicNetworkAccess"], "clause": "a", "strength": "delvis", "scope": "PaaS-tjenester i Azure, i tildelt omfang",
+    "why": "a) filter traffic by allow-list: the services' own firewalls restrict who can reach them. Several of Microsoft's checks ask for public access to be closed altogether, which is stricter than NSM's wording, so a deviation needs judgement."}
+  ]},
+  "2.5.5": {"links": [
+   {"mcsb": "NS-6", "clause": "a", "strength": "delvis", "scope": "Nettsteder bak Application Gateway og Front Door, i tildelt omfang",
+    "why": "a) 'Eksponerte tjenester som web ... bør kontrolleres spesielt': a web application firewall inspects traffic to exposed web services. Clause b, no direct flow to the most critical services, is not measured."}
+  ]},
+  "2.6.1": {"links": [
+   {"mcsb": "PA-7", "include": ["kubernetesServiceRbacEnabledMonitoring", "keyvaultServiceRbacEnabledMonitoring", "aPIManagementServiceShouldNotHaveAllApisScopedSubscriptions"], "clause": "b", "strength": "delvis", "scope": "Kubernetes-tjenester, Key Vault og API Management i tildelt omfang",
+    "why": "b) 'minste privilegiums prinsipp': role-based access is switched on, so access can be granted per role instead of all or nothing. It shows least privilege is possible there, not that every grant is minimal."}
+  ]},
+  "2.6.3": {"links": [
+   {"mcsb": "IM-1", "clause": "a", "strength": "direkte", "scope": "Datatjenester, lagring og VPN i Azure, i tildelt omfang",
+    "why": "a) manage accounts for as many resources as possible with one tool: the services accept only Entra ID identities, so no local accounts or shared keys live outside the directory."},
+   {"mcsb": "DP-4", "include": ["mySqlServerADAdminisMonitoring", "mySqlServerADOnlyEnabledMonitoring"], "clause": "a", "strength": "direkte", "scope": "Azure Database for MySQL i tildelt omfang",
+    "why": "a) as for the other data services: MySQL servers authenticate with Entra ID. Microsoft files these two policies under encryption at rest; by content they are about authentication."},
+   {"mcsb": "PA-4", "include": ["identityRemoveDeprecatedAccountWithOwnerPermissionsMonitoringNew", "identityRemoveDeprecatedAccountMonitoringNew"], "clause": "d", "strength": "delvis", "scope": "Rolletildelinger i Azure, i tildelt omfang",
+    "why": "d) follow up accounts that are no longer needed: blocked accounts hold no roles on Azure resources. Accounts that are enabled but unused are not found by these policies."}
+  ]},
+  "2.6.5": {"links": [
+   {"mcsb": "PA-1", "include": ["identityDesignateLessThanOwnersMonitoring"], "clause": "b", "strength": "direkte", "scope": "Eier-rollen på abonnementer i tildelt omfang",
+    "why": "b) limit accounts with full rights to a minimum: at most three owners per subscription. Owner is the Azure role with full rights."}
+  ]},
+  "2.7.1": {"links": [
+   {"mcsb": "DP-6", "include": ["secretsExpirationSet", "keysExpirationSet"], "clause": null, "strength": "delvis", "scope": "Key Vault i tildelt omfang",
+    "why": "The strategy should cover 'fornyelse av nøkler': keys and secrets carry an expiry date. Evidence that this part of a strategy is practised in Key Vault; the strategy itself is attested."},
+   {"mcsb": "DP-7", "clause": null, "strength": "delvis", "scope": "Key Vault i tildelt omfang",
+    "why": "The strategy should cover 'håndtering av sertifikater': certificates have a maximum validity period."},
+   {"mcsb": "DP-8", "include": ["keyVaultsShouldHavePurgeProtectionEnabledMonitoringEffect", "keyVaultsShouldHaveSoftDeleteEnabledMonitoringEffect"], "clause": null, "strength": "delvis", "scope": "Key Vault i tildelt omfang",
+    "why": "The strategy should cover 'hvordan nøkler/passord oppbevares' and 'sikkerhetskopiering av nøkler': deleted keys can be recovered and cannot be purged."}
+  ]},
+  "2.7.2": {"links": [
+   {"mcsb": "DP-4", "exclude": ["mySqlServerADAdminisMonitoring", "mySqlServerADOnlyEnabledMonitoring"], "clause": null, "strength": "direkte", "scope": "Disker, databaser og tjenester i Azure, i tildelt omfang",
+    "why": "'Aktiver kryptering i de tjenestene som tilbyr slik funksjonalitet': encryption at rest is switched on where the service offers it."},
+   {"mcsb": "DP-3", "clause": null, "strength": "direkte", "scope": "Tjenester i Azure med nettverksendepunkt, i tildelt omfang",
+    "why": "'Aktiver kryptering ...' and 'kun anbefalte algoritmer': the services require TLS, in a current version."}
+  ]},
+  "2.7.4": {"links": [
+   {"mcsb": "DP-3", "clause": null, "strength": "direkte", "scope": "Tjenester i Azure med nettverksendepunkt, i tildelt omfang",
+    "why": "'Benytt kryptering når konfidensiell informasjon overføres', with TLS in the application as NSM's own example: the services refuse unencrypted connections."}
+  ]},
+  "2.9.1": {"links": [
+   {"mcsb": "BR-1", "include": ["azureBackupShouldBeEnabledForVirtualMachinesMonitoringEffect"], "clause": "a", "strength": "delvis", "scope": "Virtuelle maskiner i Azure, i tildelt omfang",
+    "why": "The measure is a plan; a) says which data to back up. Azure Backup on every virtual machine shows the plan is carried out for those machines, never the plan itself."}
+  ]},
+  "3.1.1": {"links": [
+   {"mcsb": "PV-5", "exclude": ["serverSecretFindingsMonitoring"], "clause": null, "strength": "direkte", "scope": "Virtuelle maskiner og SQL i Azure, i tildelt omfang",
+    "why": "'jevnlig sårbarhetskartlegging ... ved hjelp av automatiserte verktøy': a vulnerability assessment tool is switched on. NSM also names clients and network, which are outside."},
+   {"mcsb": "PV-6", "include": ["sqlDbVulnerabilityAssesmentMonitoring", "serverSqlDbVulnerabilityAssesmentMonitoring", "azureContainerRegistryVulnerabilityAssessment", "kubernetesRunningImagesVulnerabilityMDVMAssessment"], "clause": "a", "strength": "direkte", "scope": "SQL og containeravbildninger i Azure, i tildelt omfang",
+    "why": "a) 'verifiser at oppdagede sårbarheter blir håndtert': findings from the assessments are resolved."}
+  ]},
+  "3.1.3": {"links": [
+   {"mcsb": "ES-1", "clause": "a", "strength": "direkte", "scope": "Servere i Azure og Arc, i tildelt omfang",
+    "why": "a) centrally managed anti-malware: Defender for Servers is on, which brings Defender for Endpoint to the servers."},
+   {"mcsb": "ES-2", "clause": "b", "strength": "direkte", "scope": "Windows-servere i Azure og Arc, i tildelt omfang",
+    "why": "b) 'IDS/IPS-funksjonalitet på klienter og servere': Exploit Guard, the host intrusion prevention in Windows, is on."}
+  ]},
+  "3.2.3": {"links": [
+   {"mcsb": "LT-1", "exclude": ["windowsDefenderExploitGuardMonitoring", "MicrosoftDefenderCSPMShouldBeEnabledMonitoringEffect"], "clause": "a", "strength": "delvis", "scope": "Databaser, lagring, Key Vault, App Service, containere og Resource Manager i Azure, i tildelt omfang",
+    "why": "a) the parts that are most critical or hold the most confidential information: threat detection is on for these resource types. It shows they are monitored, not that the organisation has decided what to monitor."}
+  ]},
+  "3.2.4": {"links": [
+   {"mcsb": "LT-3", "clause": "b", "strength": "delvis", "scope": "Tjenester i Azure med ressurslogger, i tildelt omfang",
+    "why": "b) 'administrasjons- og sikkerhetslogger fra enheter og tjenester': resource logs and SQL auditing are switched on. The decision on which data is relevant is attested, and sign-in logs (a) come from Entra ID, not from Azure Policy."}
+  ]}
+ },
+ "left_out": [
+  {"mcsb": "AM-2, AM-3", "why": "Retired resource types and unused APIs. Closest NSM text is 2.1.2 c) 'eldre IKT-produkter fases ut', which is about purchasing; a candidate if 2.1.2 is to be measured in Azure."},
+  {"mcsb": "BR-1 (geo-redundant database backup), BR-2", "why": "Geo-redundancy protects against loss of a region. NSM 2.9.4 asks for copies separated from production and for offline copies, which it does not show. BR-2 holds the same four policies as BR-1."},
+  {"mcsb": "DP-1, DP-2", "why": "Defender plans; the same policies are counted once under 3.2.3 through LT-1."},
+  {"mcsb": "DP-5", "why": "Customer-managed keys. NSM 2.7.1 asks for a strategy; an organisation whose strategy uses platform-managed keys would be marked as deviating."},
+  {"mcsb": "DP-6 (API Management named values), DP-8 (logs, Defender, firewall, private link)", "why": "Counted under other measures or not about key handling."},
+  {"mcsb": "DS-6", "why": "Its two policies are counted under 3.1.1 through PV-6."},
+  {"mcsb": "IM-3, IM-4, IM-8", "why": "Managed identities, API authentication and secrets found on machines. No NSM clause names them closely enough."},
+  {"mcsb": "IM-6 for 2.6.7", "why": "MCSB no longer carries the policies for MFA on subscription accounts. MFA for Azure is decided in Entra ID Conditional Access and is measured by the Maester pack (MP.NSM.1005)."},
+  {"mcsb": "IR-2, IR-3, IR-4, IR-5", "why": "Incident contacts and alert quality. NSM 4.1 is planning and exercises, which are attested."},
+  {"mcsb": "LT-2", "why": "Same policies as LT-1."},
+  {"mcsb": "LT-6", "why": "Retention of SQL audit logs. NSM 3.2.5 b) is about storage space and 3.2.6 about tampering; neither is retention."},
+  {"mcsb": "NS-2 (private link policies, anonymous blob access, MariaDB)", "why": "Private link is one way to meet 2.5.1, not something NSM asks for: a service with a firewall allow-list would be marked as deviating. Anonymous blob access is about authorisation, not network. Azure Database for MariaDB is retired."},
+  {"mcsb": "NS-5", "why": "DDoS protection. NSM mentions denial of service only as a topic for risk assessment in 2.2.7."},
+  {"mcsb": "PA-1 (more than one owner; blocked and guest owners), PA-4 (guest accounts)", "why": "More than one owner is about availability. NSM does not ask for guests to be removed; a guest with a role is a deviation only by Microsoft's rule."},
+  {"mcsb": "PA-2", "why": "Its one policy, just-in-time access to management ports, is counted under 2.3.6 through NS-3."},
+  {"mcsb": "PA-7 (custom RBAC roles)", "why": "Flags every custom role, which NSM does not advise against."},
+  {"mcsb": "PV-2 (Kubernetes pod security, CORS, API Management platform version)", "why": "NSM 2.3.4 names operating systems, firewalls, network equipment, applications and hardware. Kubernetes workload rules need the organisation's own allow-lists; candidates once it has a Kubernetes standard."},
+  {"mcsb": "PV-4 (trusted launch, guest attestation, Azure Stack HCI)", "why": "Hardware-rooted boot protection is not named in NSM 2.3.4 or 2.3.5. The application control policy for Azure Stack HCI is about servers; NSM 2.3.2 says clients."},
+  {"mcsb": "PV-5 (secret findings)", "why": "Secrets on disk are not vulnerability mapping."}
+ ],
+ "not_in_azure_policy": "NSM 2.3.2, 2.4.4, 2.6.4, 2.6.7, 2.7.3 and the governance measures have no policy here: they are measured on clients and in Entra ID by the NSM GP-IKT 2.1 [Maester pack](https://github.com/alventech/maester-pack-nsm-gp-ikt), or attested."
+}
