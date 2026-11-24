@@ -14,6 +14,8 @@ support agreement or warranty.
 
 Version 0.1.0, tested in a lab tenant in November 2026; see [What has been tested](#what-has-been-tested).
 
+![How it works: Microsoft cloud security benchmark (216 built-in policies) is mapped by nsm-mcsb-map.json to NSM clauses; build_initiative.py generates an initiative of 132 built-in policies in 20 groups, one per NSM measure, assigned in audit only; results show in Azure Policy and in Defender for Cloud's regulatory compliance. Entra ID, Microsoft 365, Defender and Intune are measured by the Maester pack](docs/images/solution-design.svg)
+
 ## What is in it
 
 | | |
@@ -25,6 +27,8 @@ Version 0.1.0, tested in a lab tenant in November 2026; see [What has been teste
 | Link strength | 8 measures *direkte*, 12 *delvis* |
 
 [coverage.md](coverage.md) lists every measure with its policies, the reason for each link, and what was left out.
+
+![The 132 built-in policies across 20 NSM measures in areas 2 (protect and maintain) and 3 (detect): the number of policies per measure, the MCSB controls and scope, the strength of the link (direkte or delvis), and which measures NSM's alert of 27.10.2026 points to](docs/images/policies-per-measure.svg)
 
 ## How it is built
 
@@ -56,6 +60,7 @@ python3 -I tests/test_initiative.py -v  # 11 checks, no Azure access needed
 | `source/mcsb-57.60.0.json`, `source/builtin-policies.json` | Microsoft's initiative, and the names and required parameters of the built-in policies it uses. Copied from [Azure/azure-policy](https://github.com/Azure/azure-policy) (MIT, © Microsoft Corporation). |
 | `source/gp-ikt-2.1-measures.json` | NSM's measures: IDs, principle and category names, titles, priority and whether NSM's alert points to the measure. NSM's full text stays on nsm.no. |
 | `tests/test_initiative.py` | Checks on the generated files. |
+| `docs/images/` | Diagrams. The numbers in them are read from the generated policy set. |
 
 ## Strength
 
@@ -66,6 +71,8 @@ python3 -I tests/test_initiative.py -v  # 11 checks, no Azure access needed
 
 A link that would be a stretch is left out, and the measure then has no policy. A measure's result from Azure
 Policy is never the result for the whole measure: it covers Azure resources in the assigned scope only.
+
+![Link strength: direkte, the setting is what the clause asks for (example 2.3.1, System updates should be installed on your machines); delvis, evidence within a stated scope (example 2.9.1, Azure Backup should be enabled for Virtual Machines, where NSM asks for a plan); left out, a stretch with no link (example DP-5, customer-managed keys for 2.7.1)](docs/images/link-strength.svg)
 
 ## Deploy
 
@@ -106,6 +113,8 @@ on in the assignment: NSG on subnets, storage account network restriction, expir
 and certificate validity period. coverage.md marks them "(off)".
 
 ## What it does not cover
+
+![GP-IKT 2.1 measures with an Azure policy, per area: identify and map 0 of 13, protect and maintain 16 of 63, detect 4 of 23, respond and recover 0 of 19](docs/images/coverage-by-area.svg)
 
 - 98 measures have no policy. Governance, plans, contracts, network equipment, OT and clients cannot be read from
   Azure Policy.

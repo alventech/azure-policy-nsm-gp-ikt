@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 570" width="720" height="570" font-family="Segoe UI, system-ui, -apple-system, sans-serif"><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3b3b3b"/></marker></defs><rect width="720" height="570" rx="12" fill="#ffffff"/>
+<text x="20" y="34" font-size="14" font-weight="600" fill="#242424" text-anchor="start">Each link from an MCSB control to an NSM clause has a strength.</text>
+<text x="20" y="56" font-size="13" font-weight="400" fill="#605e5c" text-anchor="start">A link that would be a stretch is left out, and the measure then has no policy.</text>
+<rect x="20" y="78" width="680" height="128" rx="8" fill="#f3f7fc" stroke="#0f6cbd" stroke-width="1.5"/>
+<rect x="38" y="116" width="8" height="14" rx="2" fill="#13a10e"/>
+<rect x="50" y="106" width="8" height="24" rx="2" fill="#13a10e"/>
+<rect x="62" y="96" width="8" height="34" rx="2" fill="#13a10e"/>
+<text x="92" y="102" font-size="11" font-weight="700" fill="#0f6cbd" text-anchor="start">DIREKTE</text>
+<text x="92" y="124" font-size="15" font-weight="700" fill="#242424" text-anchor="start">The setting is what the clause asks for</text>
+<text x="92" y="144" font-size="13" font-weight="400" fill="#605e5c" text-anchor="start">The policy checks the thing NSM names, on the Azure resources</text>
+<text x="92" y="162" font-size="13" font-weight="400" fill="#605e5c" text-anchor="start">in the assigned scope.</text>
+<text x="92" y="190" font-size="12" font-weight="700" fill="#605e5c" text-anchor="start">Example</text>
+<text x="150" y="190" font-size="12.5" font-weight="600" fill="#242424" text-anchor="start" font-family="Cascadia Code, SFMono-Regular, Menlo, monospace">2.3.1</text>
+<text x="199.5" y="190" font-size="12.5" font-weight="400" fill="#605e5c" text-anchor="start">System updates should be installed on your machines</text>
+<rect x="622.24" y="90" width="63.76" height="24" rx="12" fill="#ebf3fc" stroke="#0f6cbd"/>
+<text x="654.12" y="106" font-size="12" font-weight="600" fill="#0f6cbd" text-anchor="middle">Counts</text>
+<rect x="20" y="218" width="680" height="128" rx="8" fill="#ffffff" stroke="#c8c6c4" stroke-width="1.5"/>
+<rect x="38" y="256" width="8" height="14" rx="2" fill="#ffb900"/>
+<rect x="50" y="246" width="8" height="24" rx="2" fill="#ffb900"/>
+<rect x="62" y="236" width="8" height="34" rx="2" fill="#e1dfdd"/>
+<text x="92" y="242" font-size="11" font-weight="700" fill="#0f6cbd" text-anchor="start">DELVIS</text>
+<text x="92" y="264" font-size="15" font-weight="700" fill="#242424" text-anchor="start">Evidence for the clause, within a stated scope</text>
+<text x="92" y="284" font-size="13" font-weight="400" fill="#605e5c" text-anchor="start">Microsoft's check is narrower or stricter than NSM's wording,</text>
+<text x="92" y="302" font-size="13" font-weight="400" fill="#605e5c" text-anchor="start">or covers one kind of resource.</text>
+<text x="92" y="330" font-size="12" font-weight="700" fill="#605e5c" text-anchor="start">Example</text>
+<text x="150" y="330" font-size="12.5" font-weight="600" fill="#242424" text-anchor="start" font-family="Cascadia Code, SFMono-Regular, Menlo, monospace">2.9.1</text>
+<text x="199.5" y="330" font-size="12.5" font-weight="400" fill="#605e5c" text-anchor="start">Azure Backup should be enabled for Virtual Machines (NSM asks for a plan)</text>
+<rect x="622.24" y="230" width="63.76" height="24" rx="12" fill="#ebf3fc" stroke="#0f6cbd"/>
+<text x="654.12" y="246" font-size="12" font-weight="600" fill="#0f6cbd" text-anchor="middle">Counts</text>
+<rect x="20" y="358" width="680" height="128" rx="8" fill="#ffffff" stroke="#c8c6c4" stroke-width="1.5"/>
+<rect x="38" y="396" width="8" height="14" rx="2" fill="#e1dfdd"/>
+<rect x="50" y="386" width="8" height="24" rx="2" fill="#e1dfdd"/>
+<rect x="62" y="376" width="8" height="34" rx="2" fill="#e1dfdd"/>
+<text x="92" y="382" font-size="11" font-weight="700" fill="#0f6cbd" text-anchor="start">LEFT OUT</text>
+<text x="92" y="404" font-size="15" font-weight="700" fill="#242424" text-anchor="start">A stretch: no link</text>
+<text x="92" y="424" font-size="13" font-weight="400" fill="#605e5c" text-anchor="start">Listed in coverage.md with the reason, so the gap is visible.</text>
+<text x="92" y="442" font-size="13" font-weight="400" fill="#605e5c" text-anchor="start">The measure is then measured another way, or attested.</text>
+<text x="92" y="470" font-size="12" font-weight="700" fill="#605e5c" text-anchor="start">Example</text>
+<text x="150" y="470" font-size="12.5" font-weight="600" fill="#242424" text-anchor="start" font-family="Cascadia Code, SFMono-Regular, Menlo, monospace">DP-5</text>
+<text x="192.0" y="470" font-size="12.5" font-weight="400" fill="#605e5c" text-anchor="start">Customer-managed keys, for 2.7.1 (NSM asks for a strategy)</text>
+<rect x="601.36" y="370" width="84.63999999999999" height="24" rx="12" fill="#ebf3fc" stroke="#605e5c"/>
+<text x="643.6800000000001" y="386" font-size="12" font-weight="600" fill="#605e5c" text-anchor="middle">No policy</text>
+<rect x="20" y="502" width="680" height="52" rx="8" fill="#fff8e6" stroke="#ffb900" stroke-width="1.5"/>
+<text x="36" y="526" font-size="14" font-weight="700" fill="#242424" text-anchor="start">A level from Azure Policy is never the level for the whole measure</text>
+<text x="36" y="546" font-size="12.5" font-weight="400" fill="#424242" text-anchor="start">It covers the Azure resources in the assigned scope; coverage.md names the scope.</text>
+</svg>

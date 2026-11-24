@@ -1,0 +1,239 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1020" width="720" height="1020" font-family="Segoe UI, system-ui, -apple-system, sans-serif"><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3b3b3b"/></marker></defs><rect width="720" height="1020" rx="12" fill="#ffffff"/>
+<text x="20" y="30" font-size="14" font-weight="700" fill="#242424" text-anchor="start">132 built-in policies across 20 NSM measures</text>
+<text x="20" y="50" font-size="12.5" font-weight="400" fill="#605e5c" text-anchor="start">A policy can support more than one measure. Strength: how much the policies prove for the clause.</text>
+<text x="20" y="88" font-size="11" font-weight="700" fill="#0f6cbd" text-anchor="start">2  PROTECT AND MAINTAIN</text>
+<line x1="20" y1="96" x2="700" y2="96" stroke="#c8c6c4" stroke-width="1"/>
+<text x="20" y="118" font-size="13" font-weight="700" fill="#242424" text-anchor="start" font-family="Cascadia Code, SFMono-Regular, Menlo, monospace">2.2.3</text>
+<text x="66" y="118" font-size="12.5" font-weight="400" fill="#242424" text-anchor="start">Del opp virksomhetens nettverk etter virks…</text>
+<text x="66" y="135" font-size="11.5" font-weight="400" fill="#605e5c" text-anchor="start">NS-1, NS-2 · Azure-ressurser i tildelt omfang</text>
+<rect x="370" y="107" width="120" height="14" rx="3" fill="#e1dfdd" opacity="0.5"/>
+<rect x="370" y="107" width="40.0" height="14" rx="3" fill="#0f6cbd"/>
+<text x="498" y="119" font-size="13" font-weight="700" fill="#242424" text-anchor="start">7</text>
+<rect x="526" y="115" width="5" height="6" rx="1" fill="#ffb900"/>
+<rect x="533" y="111" width="5" height="10" rx="1" fill="#ffb900"/>
+<rect x="540" y="107" width="5" height="14" rx="1" fill="#e1dfdd"/>
+<text x="552" y="119" font-size="12" font-weight="600" fill="#605e5c" text-anchor="start">delvis</text>
+<rect x="636.24" y="103" width="63.76" height="24" rx="12" fill="#ebf3fc" stroke="#0f6cbd"/>
+<text x="668.12" y="119" font-size="12" font-weight="600" fill="#0f6cbd" text-anchor="middle">Varsel</text>
+<text x="20" y="160" font-size="13" font-weight="700" fill="#242424" text-anchor="start" font-family="Cascadia Code, SFMono-Regular, Menlo, monospace">2.3.1</text>
+<text x="66" y="160" font-size="12.5" font-weight="400" fill="#242424" text-anchor="start">Etabler et sentralt styrt regime for sikke…</text>
+<text x="66" y="177" font-size="11.5" font-weight="400" fill="#605e5c" text-anchor="start">PV-6, PV-2 · Azure-ressurser i tildelt omfang</text>
+<rect x="370" y="149" width="120" height="14" rx="3" fill="#e1dfdd" opacity="0.5"/>
+<rect x="370" y="149" width="17.1" height="14" rx="3" fill="#0f6cbd"/>
+<text x="498" y="161" font-size="13" font-weight="700" fill="#242424" text-anchor="start">3</text>
+<rect x="526" y="157" width="5" height="6" rx="1" fill="#13a10e"/>
+<rect x="533" y="153" width="5" height="10" rx="1" fill="#13a10e"/>
+<rect x="540" y="149" width="5" height="14" rx="1" fill="#13a10e"/>
+<text x="552" y="161" font-size="12" font-weight="600" fill="#605e5c" text-anchor="start">direkte</text>
+<rect x="636.24" y="145" width="63.76" height="24" rx="12" fill="#ebf3fc" stroke="#0f6cbd"/>
+<text x="668.12" y="161" font-size="12" font-weight="600" fill="#0f6cbd" text-anchor="middle">Varsel</text>
+<text x="20" y="202" font-size="13" font-weight="700" fill="#242424" text-anchor="start" font-family="Cascadia Code, SFMono-Regular, Menlo, monospace">2.3.3</text>
+<text x="66" y="202" font-size="12.5" font-weight="400" fill="#242424" text-anchor="start">Deaktiver unødvendig funksjonalitet</text>
+<text x="66" y="219" font-size="11.5" font-weight="400" fill="#605e5c" text-anchor="start">NS-8, DP-3, PV-2 · Azure-ressurser i tildelt o…</text>
+<rect x="370" y="191" width="120" height="14" rx="3" fill="#e1dfdd" opacity="0.5"/>
+<rect x="370" y="191" width="51.4" height="14" rx="3" fill="#0f6cbd"/>
+<text x="498" y="203" font-size="13" font-weight="700" fill="#242424" text-anchor="start">9</text>
+<rect x="526" y="199" width="5" height="6" rx="1" fill="#13a10e"/>
+<rect x="533" y="195" width="5" height="10" rx="1" fill="#13a10e"/>
+<rect x="540" y="191" width="5" height="14" rx="1" fill="#13a10e"/>
+<text x="552" y="203" font-size="12" font-weight="600" fill="#605e5c" text-anchor="start">direkte</text>
+<rect x="636.24" y="187" width="63.76" height="24" rx="12" fill="#ebf3fc" stroke="#0f6cbd"/>
+<text x="668.12" y="203" font-size="12" font-weight="600" fill="#0f6cbd" text-anchor="middle">Varsel</text>
+<text x="20" y="244" font-size="13" font-weight="700" fill="#242424" text-anchor="start" font-family="Cascadia Code, SFMono-Regular, Menlo, monospace">2.3.4</text>
+<text x="66" y="244" font-size="12.5" font-weight="400" fill="#242424" text-anchor="start">Etabler og vedlikehold standard sikkerhets…</text>
+<text x="66" y="261" font-size="11.5" font-weight="400" fill="#605e5c" text-anchor="start">PV-4 · Windows- og Linux-servere i Azure og Ar…</text>
+<rect x="370" y="233" width="120" height="14" rx="3" fill="#e1dfdd" opacity="0.5"/>
+<rect x="370" y="233" width="11.4" height="14" rx="3" fill="#0f6cbd"/>
+<text x="498" y="245" font-size="13" font-weight="700" fill="#242424" text-anchor="start">2</text>
+<rect x="526" y="241" width="5" height="6" rx="1" fill="#ffb900"/>
+<rect x="533" y="237" width="5" height="10" rx="1" fill="#ffb900"/>
+<rect x="540" y="233" width="5" height="14" rx="1" fill="#e1dfdd"/>
+<text x="552" y="245" font-size="12" font-weight="600" fill="#605e5c" text-anchor="start">delvis</text>
+<text x="20" y="286" font-size="13" font-weight="700" fill="#242424" text-anchor="start" font-family="Cascadia Code, SFMono-Regular, Menlo, monospace">2.3.5</text>
+<text x="66" y="286" font-size="12.5" font-weight="400" fill="#242424" text-anchor="start">Verifiser at aktivert sikkerhetskonfiguras…</text>
+<text x="66" y="303" font-size="11.5" font-weight="400" fill="#605e5c" text-anchor="start">PV-4 · Windows- og Linux-servere i Azure og Ar…</text>
+<rect x="370" y="275" width="120" height="14" rx="3" fill="#e1dfdd" opacity="0.5"/>
+<rect x="370" y="275" width="17.1" height="14" rx="3" fill="#0f6cbd"/>
+<text x="498" y="287" font-size="13" font-weight="700" fill="#242424" text-anchor="start">3</text>
+<rect x="526" y="283" width="5" height="6" rx="1" fill="#ffb900"/>
+<rect x="533" y="279" width="5" height="10" rx="1" fill="#ffb900"/>
+<rect x="540" y="275" width="5" height="14" rx="1" fill="#e1dfdd"/>
+<text x="552" y="287" font-size="12" font-weight="600" fill="#605e5c" text-anchor="start">delvis</text>
+<text x="20" y="328" font-size="13" font-weight="700" fill="#242424" text-anchor="start" font-family="Cascadia Code, SFMono-Regular, Menlo, monospace">2.3.6</text>
+<text x="66" y="328" font-size="12.5" font-weight="400" fill="#242424" text-anchor="start">Utfør all konfigurasjon, installasjon, og…</text>
+<text x="66" y="345" font-size="11.5" font-weight="400" fill="#605e5c" text-anchor="start">NS-3, PV-2 · Azure-ressurser i tildelt omfang</text>
+<rect x="370" y="317" width="120" height="14" rx="3" fill="#e1dfdd" opacity="0.5"/>
+<rect x="370" y="317" width="17.1" height="14" rx="3" fill="#0f6cbd"/>
+<text x="498" y="329" font-size="13" font-weight="700" fill="#242424" text-anchor="start">3</text>
+<rect x="526" y="325" width="5" height="6" rx="1" fill="#13a10e"/>
+<rect x="533" y="321" width="5" height="10" rx="1" fill="#13a10e"/>
+<rect x="540" y="317" width="5" height="14" rx="1" fill="#13a10e"/>
+<text x="552" y="329" font-size="12" font-weight="600" fill="#605e5c" text-anchor="start">direkte</text>
+<text x="20" y="370" font-size="13" font-weight="700" fill="#242424" text-anchor="start" font-family="Cascadia Code, SFMono-Regular, Menlo, monospace">2.3.7</text>
+<text x="66" y="370" font-size="12.5" font-weight="400" fill="#242424" text-anchor="start">Endre alle standardpassord på IKT-produkte…</text>
+<text x="66" y="387" font-size="11.5" font-weight="400" fill="#605e5c" text-anchor="start">IM-6 · Linux-maskiner i Azure og Arc, i tildel…</text>
+<rect x="370" y="359" width="120" height="14" rx="3" fill="#e1dfdd" opacity="0.5"/>
+<rect x="370" y="359" width="5.7" height="14" rx="3" fill="#0f6cbd"/>
+<text x="498" y="371" font-size="13" font-weight="700" fill="#242424" text-anchor="start">1</text>
+<rect x="526" y="367" width="5" height="6" rx="1" fill="#ffb900"/>
+<rect x="533" y="363" width="5" height="10" rx="1" fill="#ffb900"/>
+<rect x="540" y="359" width="5" height="14" rx="1" fill="#e1dfdd"/>
+<text x="552" y="371" font-size="12" font-weight="600" fill="#605e5c" text-anchor="start">delvis</text>
+<rect x="636.24" y="355" width="63.76" height="24" rx="12" fill="#ebf3fc" stroke="#0f6cbd"/>
+<text x="668.12" y="371" font-size="12" font-weight="600" fill="#0f6cbd" text-anchor="middle">Varsel</text>
+<text x="20" y="412" font-size="13" font-weight="700" fill="#242424" text-anchor="start" font-family="Cascadia Code, SFMono-Regular, Menlo, monospace">2.5.1</text>
+<text x="66" y="412" font-size="12.5" font-weight="400" fill="#242424" text-anchor="start">Styr dataflyt mellom nettverks-soner</text>
+<text x="66" y="429" font-size="11.5" font-weight="400" fill="#605e5c" text-anchor="start">NS-1, NS-3, NS-2 · Azure-ressurser i tildelt o…</text>
+<rect x="370" y="401" width="120" height="14" rx="3" fill="#e1dfdd" opacity="0.5"/>
+<rect x="370" y="401" width="108.6" height="14" rx="3" fill="#0f6cbd"/>
+<text x="498" y="413" font-size="13" font-weight="700" fill="#242424" text-anchor="start">19</text>
+<rect x="526" y="409" width="5" height="6" rx="1" fill="#ffb900"/>
+<rect x="533" y="405" width="5" height="10" rx="1" fill="#ffb900"/>
+<rect x="540" y="401" width="5" height="14" rx="1" fill="#e1dfdd"/>
+<text x="552" y="413" font-size="12" font-weight="600" fill="#605e5c" text-anchor="start">delvis</text>
+<rect x="636.24" y="397" width="63.76" height="24" rx="12" fill="#ebf3fc" stroke="#0f6cbd"/>
+<text x="668.12" y="413" font-size="12" font-weight="600" fill="#0f6cbd" text-anchor="middle">Varsel</text>
+<text x="20" y="454" font-size="13" font-weight="700" fill="#242424" text-anchor="start" font-family="Cascadia Code, SFMono-Regular, Menlo, monospace">2.5.5</text>
+<text x="66" y="454" font-size="12.5" font-weight="400" fill="#242424" text-anchor="start">Styr dataflyten til spesielt eksponerte tj…</text>
+<text x="66" y="471" font-size="11.5" font-weight="400" fill="#605e5c" text-anchor="start">NS-6 · Nettsteder bak Application Gateway og F…</text>
+<rect x="370" y="443" width="120" height="14" rx="3" fill="#e1dfdd" opacity="0.5"/>
+<rect x="370" y="443" width="11.4" height="14" rx="3" fill="#0f6cbd"/>
+<text x="498" y="455" font-size="13" font-weight="700" fill="#242424" text-anchor="start">2</text>
+<rect x="526" y="451" width="5" height="6" rx="1" fill="#ffb900"/>
+<rect x="533" y="447" width="5" height="10" rx="1" fill="#ffb900"/>
+<rect x="540" y="443" width="5" height="14" rx="1" fill="#e1dfdd"/>
+<text x="552" y="455" font-size="12" font-weight="600" fill="#605e5c" text-anchor="start">delvis</text>
+<text x="20" y="496" font-size="13" font-weight="700" fill="#242424" text-anchor="start" font-family="Cascadia Code, SFMono-Regular, Menlo, monospace">2.6.1</text>
+<text x="66" y="496" font-size="12.5" font-weight="400" fill="#242424" text-anchor="start">Etabler retningslinjer for tilgangskontroll</text>
+<text x="66" y="513" font-size="11.5" font-weight="400" fill="#605e5c" text-anchor="start">PA-7 · Kubernetes-tjenester, Key Vault og API…</text>
+<rect x="370" y="485" width="120" height="14" rx="3" fill="#e1dfdd" opacity="0.5"/>
+<rect x="370" y="485" width="17.1" height="14" rx="3" fill="#0f6cbd"/>
+<text x="498" y="497" font-size="13" font-weight="700" fill="#242424" text-anchor="start">3</text>
+<rect x="526" y="493" width="5" height="6" rx="1" fill="#ffb900"/>
+<rect x="533" y="489" width="5" height="10" rx="1" fill="#ffb900"/>
+<rect x="540" y="485" width="5" height="14" rx="1" fill="#e1dfdd"/>
+<text x="552" y="497" font-size="12" font-weight="600" fill="#605e5c" text-anchor="start">delvis</text>
+<text x="20" y="538" font-size="13" font-weight="700" fill="#242424" text-anchor="start" font-family="Cascadia Code, SFMono-Regular, Menlo, monospace">2.6.3</text>
+<text x="66" y="538" font-size="12.5" font-weight="400" fill="#242424" text-anchor="start">Benytt et sentralisert og automatiserbart…</text>
+<text x="66" y="555" font-size="11.5" font-weight="400" fill="#605e5c" text-anchor="start">IM-1, DP-4, PA-4 · Azure-ressurser i tildelt o…</text>
+<rect x="370" y="527" width="120" height="14" rx="3" fill="#e1dfdd" opacity="0.5"/>
+<rect x="370" y="527" width="108.6" height="14" rx="3" fill="#0f6cbd"/>
+<text x="498" y="539" font-size="13" font-weight="700" fill="#242424" text-anchor="start">19</text>
+<rect x="526" y="535" width="5" height="6" rx="1" fill="#ffb900"/>
+<rect x="533" y="531" width="5" height="10" rx="1" fill="#ffb900"/>
+<rect x="540" y="527" width="5" height="14" rx="1" fill="#e1dfdd"/>
+<text x="552" y="539" font-size="12" font-weight="600" fill="#605e5c" text-anchor="start">delvis</text>
+<text x="20" y="580" font-size="13" font-weight="700" fill="#242424" text-anchor="start" font-family="Cascadia Code, SFMono-Regular, Menlo, monospace">2.6.5</text>
+<text x="66" y="580" font-size="12.5" font-weight="400" fill="#242424" text-anchor="start">Minimer rettigheter på drifts-kontoer</text>
+<text x="66" y="597" font-size="11.5" font-weight="400" fill="#605e5c" text-anchor="start">PA-1 · Eier-rollen på abonnementer i tildelt o…</text>
+<rect x="370" y="569" width="120" height="14" rx="3" fill="#e1dfdd" opacity="0.5"/>
+<rect x="370" y="569" width="5.7" height="14" rx="3" fill="#0f6cbd"/>
+<text x="498" y="581" font-size="13" font-weight="700" fill="#242424" text-anchor="start">1</text>
+<rect x="526" y="577" width="5" height="6" rx="1" fill="#13a10e"/>
+<rect x="533" y="573" width="5" height="10" rx="1" fill="#13a10e"/>
+<rect x="540" y="569" width="5" height="14" rx="1" fill="#13a10e"/>
+<text x="552" y="581" font-size="12" font-weight="600" fill="#605e5c" text-anchor="start">direkte</text>
+<rect x="636.24" y="565" width="63.76" height="24" rx="12" fill="#ebf3fc" stroke="#0f6cbd"/>
+<text x="668.12" y="581" font-size="12" font-weight="600" fill="#0f6cbd" text-anchor="middle">Varsel</text>
+<text x="20" y="622" font-size="13" font-weight="700" fill="#242424" text-anchor="start" font-family="Cascadia Code, SFMono-Regular, Menlo, monospace">2.7.1</text>
+<text x="66" y="622" font-size="12.5" font-weight="400" fill="#242424" text-anchor="start">Etabler en strategi for håndtering av kryp…</text>
+<text x="66" y="639" font-size="11.5" font-weight="400" fill="#605e5c" text-anchor="start">DP-6, DP-7, DP-8 · Key Vault i tildelt omfang</text>
+<rect x="370" y="611" width="120" height="14" rx="3" fill="#e1dfdd" opacity="0.5"/>
+<rect x="370" y="611" width="28.6" height="14" rx="3" fill="#0f6cbd"/>
+<text x="498" y="623" font-size="13" font-weight="700" fill="#242424" text-anchor="start">5</text>
+<rect x="526" y="619" width="5" height="6" rx="1" fill="#ffb900"/>
+<rect x="533" y="615" width="5" height="10" rx="1" fill="#ffb900"/>
+<rect x="540" y="611" width="5" height="14" rx="1" fill="#e1dfdd"/>
+<text x="552" y="623" font-size="12" font-weight="600" fill="#605e5c" text-anchor="start">delvis</text>
+<text x="20" y="664" font-size="13" font-weight="700" fill="#242424" text-anchor="start" font-family="Cascadia Code, SFMono-Regular, Menlo, monospace">2.7.2</text>
+<text x="66" y="664" font-size="12.5" font-weight="400" fill="#242424" text-anchor="start">Aktiver kryptering i de tjenestene som til…</text>
+<text x="66" y="681" font-size="11.5" font-weight="400" fill="#605e5c" text-anchor="start">DP-4, DP-3 · Azure-ressurser i tildelt omfang</text>
+<rect x="370" y="653" width="120" height="14" rx="3" fill="#e1dfdd" opacity="0.5"/>
+<rect x="370" y="653" width="120.0" height="14" rx="3" fill="#0f6cbd"/>
+<text x="498" y="665" font-size="13" font-weight="700" fill="#242424" text-anchor="start">21</text>
+<rect x="526" y="661" width="5" height="6" rx="1" fill="#13a10e"/>
+<rect x="533" y="657" width="5" height="10" rx="1" fill="#13a10e"/>
+<rect x="540" y="653" width="5" height="14" rx="1" fill="#13a10e"/>
+<text x="552" y="665" font-size="12" font-weight="600" fill="#605e5c" text-anchor="start">direkte</text>
+<text x="20" y="706" font-size="13" font-weight="700" fill="#242424" text-anchor="start" font-family="Cascadia Code, SFMono-Regular, Menlo, monospace">2.7.4</text>
+<text x="66" y="706" font-size="12.5" font-weight="400" fill="#242424" text-anchor="start">Benytt kryptering når konfidensiell inform…</text>
+<text x="66" y="723" font-size="11.5" font-weight="400" fill="#605e5c" text-anchor="start">DP-3 · Tjenester i Azure med nettverksendepunk…</text>
+<rect x="370" y="695" width="120" height="14" rx="3" fill="#e1dfdd" opacity="0.5"/>
+<rect x="370" y="695" width="85.7" height="14" rx="3" fill="#0f6cbd"/>
+<text x="498" y="707" font-size="13" font-weight="700" fill="#242424" text-anchor="start">15</text>
+<rect x="526" y="703" width="5" height="6" rx="1" fill="#13a10e"/>
+<rect x="533" y="699" width="5" height="10" rx="1" fill="#13a10e"/>
+<rect x="540" y="695" width="5" height="14" rx="1" fill="#13a10e"/>
+<text x="552" y="707" font-size="12" font-weight="600" fill="#605e5c" text-anchor="start">direkte</text>
+<text x="20" y="748" font-size="13" font-weight="700" fill="#242424" text-anchor="start" font-family="Cascadia Code, SFMono-Regular, Menlo, monospace">2.9.1</text>
+<text x="66" y="748" font-size="12.5" font-weight="400" fill="#242424" text-anchor="start">Legg en plan for regelmessig sikkerhetskop…</text>
+<text x="66" y="765" font-size="11.5" font-weight="400" fill="#605e5c" text-anchor="start">BR-1 · Virtuelle maskiner i Azure, i tildelt o…</text>
+<rect x="370" y="737" width="120" height="14" rx="3" fill="#e1dfdd" opacity="0.5"/>
+<rect x="370" y="737" width="5.7" height="14" rx="3" fill="#0f6cbd"/>
+<text x="498" y="749" font-size="13" font-weight="700" fill="#242424" text-anchor="start">1</text>
+<rect x="526" y="745" width="5" height="6" rx="1" fill="#ffb900"/>
+<rect x="533" y="741" width="5" height="10" rx="1" fill="#ffb900"/>
+<rect x="540" y="737" width="5" height="14" rx="1" fill="#e1dfdd"/>
+<text x="552" y="749" font-size="12" font-weight="600" fill="#605e5c" text-anchor="start">delvis</text>
+<rect x="636.24" y="733" width="63.76" height="24" rx="12" fill="#ebf3fc" stroke="#0f6cbd"/>
+<text x="668.12" y="749" font-size="12" font-weight="600" fill="#0f6cbd" text-anchor="middle">Varsel</text>
+<text x="20" y="798" font-size="11" font-weight="700" fill="#0f6cbd" text-anchor="start">3  DETECT</text>
+<line x1="20" y1="806" x2="700" y2="806" stroke="#c8c6c4" stroke-width="1"/>
+<text x="20" y="828" font-size="13" font-weight="700" fill="#242424" text-anchor="start" font-family="Cascadia Code, SFMono-Regular, Menlo, monospace">3.1.1</text>
+<text x="66" y="828" font-size="12.5" font-weight="400" fill="#242424" text-anchor="start">Gjennomfør jevnlig sårbarhetskartlegging</text>
+<text x="66" y="845" font-size="11.5" font-weight="400" fill="#605e5c" text-anchor="start">PV-5, PV-6 · Azure-ressurser i tildelt omfang</text>
+<rect x="370" y="817" width="120" height="14" rx="3" fill="#e1dfdd" opacity="0.5"/>
+<rect x="370" y="817" width="40.0" height="14" rx="3" fill="#0f6cbd"/>
+<text x="498" y="829" font-size="13" font-weight="700" fill="#242424" text-anchor="start">7</text>
+<rect x="526" y="825" width="5" height="6" rx="1" fill="#13a10e"/>
+<rect x="533" y="821" width="5" height="10" rx="1" fill="#13a10e"/>
+<rect x="540" y="817" width="5" height="14" rx="1" fill="#13a10e"/>
+<text x="552" y="829" font-size="12" font-weight="600" fill="#605e5c" text-anchor="start">direkte</text>
+<text x="20" y="870" font-size="13" font-weight="700" fill="#242424" text-anchor="start" font-family="Cascadia Code, SFMono-Regular, Menlo, monospace">3.1.3</text>
+<text x="66" y="870" font-size="12.5" font-weight="400" fill="#242424" text-anchor="start">Benytt automatisert og sentralisert verktø…</text>
+<text x="66" y="887" font-size="11.5" font-weight="400" fill="#605e5c" text-anchor="start">ES-1, ES-2 · Azure-ressurser i tildelt omfang</text>
+<rect x="370" y="859" width="120" height="14" rx="3" fill="#e1dfdd" opacity="0.5"/>
+<rect x="370" y="859" width="11.4" height="14" rx="3" fill="#0f6cbd"/>
+<text x="498" y="871" font-size="13" font-weight="700" fill="#242424" text-anchor="start">2</text>
+<rect x="526" y="867" width="5" height="6" rx="1" fill="#13a10e"/>
+<rect x="533" y="863" width="5" height="10" rx="1" fill="#13a10e"/>
+<rect x="540" y="859" width="5" height="14" rx="1" fill="#13a10e"/>
+<text x="552" y="871" font-size="12" font-weight="600" fill="#605e5c" text-anchor="start">direkte</text>
+<text x="20" y="912" font-size="13" font-weight="700" fill="#242424" text-anchor="start" font-family="Cascadia Code, SFMono-Regular, Menlo, monospace">3.2.3</text>
+<text x="66" y="912" font-size="12.5" font-weight="400" fill="#242424" text-anchor="start">Avgjør hvilke deler av IKT-systemet som sk…</text>
+<text x="66" y="929" font-size="11.5" font-weight="400" fill="#605e5c" text-anchor="start">LT-1 · Databaser, lagring, Key Vault, App Serv…</text>
+<rect x="370" y="901" width="120" height="14" rx="3" fill="#e1dfdd" opacity="0.5"/>
+<rect x="370" y="901" width="102.9" height="14" rx="3" fill="#0f6cbd"/>
+<text x="498" y="913" font-size="13" font-weight="700" fill="#242424" text-anchor="start">18</text>
+<rect x="526" y="909" width="5" height="6" rx="1" fill="#ffb900"/>
+<rect x="533" y="905" width="5" height="10" rx="1" fill="#ffb900"/>
+<rect x="540" y="901" width="5" height="14" rx="1" fill="#e1dfdd"/>
+<text x="552" y="913" font-size="12" font-weight="600" fill="#605e5c" text-anchor="start">delvis</text>
+<rect x="636.24" y="897" width="63.76" height="24" rx="12" fill="#ebf3fc" stroke="#0f6cbd"/>
+<text x="668.12" y="913" font-size="12" font-weight="600" fill="#0f6cbd" text-anchor="middle">Varsel</text>
+<text x="20" y="954" font-size="13" font-weight="700" fill="#242424" text-anchor="start" font-family="Cascadia Code, SFMono-Regular, Menlo, monospace">3.2.4</text>
+<text x="66" y="954" font-size="12.5" font-weight="400" fill="#242424" text-anchor="start">Beslutt hvilke data som er sikkerhetsrelev…</text>
+<text x="66" y="971" font-size="11.5" font-weight="400" fill="#605e5c" text-anchor="start">LT-3 · Tjenester i Azure med ressurslogger, i…</text>
+<rect x="370" y="943" width="120" height="14" rx="3" fill="#e1dfdd" opacity="0.5"/>
+<rect x="370" y="943" width="91.4" height="14" rx="3" fill="#0f6cbd"/>
+<text x="498" y="955" font-size="13" font-weight="700" fill="#242424" text-anchor="start">16</text>
+<rect x="526" y="951" width="5" height="6" rx="1" fill="#ffb900"/>
+<rect x="533" y="947" width="5" height="10" rx="1" fill="#ffb900"/>
+<rect x="540" y="943" width="5" height="14" rx="1" fill="#e1dfdd"/>
+<text x="552" y="955" font-size="12" font-weight="600" fill="#605e5c" text-anchor="start">delvis</text>
+<rect x="636.24" y="939" width="63.76" height="24" rx="12" fill="#ebf3fc" stroke="#0f6cbd"/>
+<text x="668.12" y="955" font-size="12" font-weight="600" fill="#0f6cbd" text-anchor="middle">Varsel</text>
+<rect x="20" y="990" width="14" height="12" rx="3" fill="#0f6cbd"/>
+<text x="40" y="1001" font-size="12.5" font-weight="400" fill="#242424" text-anchor="start">Policies in the group</text>
+<rect x="201.125" y="996" width="5" height="6" rx="1" fill="#13a10e"/>
+<rect x="208.125" y="992" width="5" height="10" rx="1" fill="#13a10e"/>
+<rect x="215.125" y="988" width="5" height="14" rx="1" fill="#13a10e"/>
+<text x="227.125" y="1001" font-size="12.5" font-weight="400" fill="#242424" text-anchor="start">direkte</text>
+<rect x="295.5" y="996" width="5" height="6" rx="1" fill="#ffb900"/>
+<rect x="302.5" y="992" width="5" height="10" rx="1" fill="#ffb900"/>
+<rect x="309.5" y="988" width="5" height="14" rx="1" fill="#e1dfdd"/>
+<text x="321.5" y="1001" font-size="12.5" font-weight="400" fill="#242424" text-anchor="start">delvis</text>
+<rect x="383.25" y="987" width="63.76" height="24" rx="12" fill="#ebf3fc" stroke="#0f6cbd"/>
+<text x="415.13" y="1003" font-size="12" font-weight="600" fill="#0f6cbd" text-anchor="middle">Varsel</text>
+<text x="455.01" y="1001" font-size="12.5" font-weight="400" fill="#242424" text-anchor="start">In NSM's alert of 27.10.2026 (9 measures)</text>
+</svg>

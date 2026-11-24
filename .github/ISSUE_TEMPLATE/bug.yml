@@ -1,0 +1,21 @@
+name: Bug
+description: The template does not deploy, the generator fails, or a result in Azure looks wrong.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not paste compliance exports, tenant or subscription IDs, or resource names.
+  - type: input
+    id: version
+    attributes:
+      label: Initiative version, and how you deployed it
+      placeholder: 0.1.0, az deployment mg create
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and the error text (without IDs or names)
+    validations:
+      required: true

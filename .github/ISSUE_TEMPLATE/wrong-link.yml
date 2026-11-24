@@ -1,0 +1,35 @@
+name: Wrong link / feil kobling
+description: A policy is linked to an NSM measure it does not support, or a link is missing or has the wrong strength.
+labels: [mapping]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not paste compliance exports, screenshots, tenant or subscription IDs, or resource names. Describe the setup instead.
+  - type: input
+    id: measure
+    attributes:
+      label: NSM measure (GP-IKT 2.1 number)
+      placeholder: "2.3.3"
+    validations:
+      required: true
+  - type: input
+    id: policy
+    attributes:
+      label: Policy or MCSB control
+      placeholder: "PV-6, or the policy's display name"
+    validations:
+      required: true
+  - type: dropdown
+    id: change
+    attributes:
+      label: What should change
+      options: [Remove the link, Add a link, Change the strength (direkte / delvis), Change the scope, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why (NSM's text, Microsoft's documentation)
+    validations:
+      required: true
